@@ -1,0 +1,10 @@
+numClasses = int(input("Enter number of classes: "))
+numClassesAttended = int(input("Enter number of classes student attended: "))
+
+attendance =((numClassesAttended/numClasses)*100)
+print("Student's Attendnace:",int(round(attendance, 2)),"%")
+
+if attendance < 70:
+    print("Student must attend summer class")
+else:
+    print("Student does not need to attend summer class")
