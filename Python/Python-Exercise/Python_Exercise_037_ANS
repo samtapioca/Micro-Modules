@@ -1,0 +1,6 @@
+f = open("Read_me.txt", "a")
+f.write("\nPython is an experiment in how much freedom programmers need.\nToo much freedom and nobody can read another's code;\ntoo little and expressiveness is endangered.")
+f.close()
+
+f = open("Read_me.txt", "r")
+print(f.read())
