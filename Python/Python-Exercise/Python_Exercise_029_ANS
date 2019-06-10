@@ -1,0 +1,3 @@
+condoList = ['Ketchup','Mayonaise','Soy Sauce','Mustard']
+for c in condoList:
+    print(c)
