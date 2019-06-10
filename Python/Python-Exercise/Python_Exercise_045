@@ -1,0 +1,43 @@
+class Dictionary:
+  def translateFrench():
+    ans = input("Enter text: ")
+    if ans == "Good night":
+      print("The French of", ans, "is Bonne nuit")
+    elif ans == "Yes":
+      print("The French of", ans, "is Oui")
+    elif ans == "No":
+      print("The French of", ans, "is Non")
+    elif ans == "Goodbye":
+      print("The French of", ans, "is Au revoir")
+    elif ans == "Thank you":
+      print("The French of", ans, "is Merci")
+    else: 
+      print("Word not recognized!")
+      
+  def translateEnglish():
+    ans = input("Enter text: ")
+    if ans == "Bonne nuit":
+      print("The English of", ans, "is Good night")
+    elif ans == "Oui":
+      print("The English of", ans, "is Yes")
+    elif ans == "Non":
+      print("The English of", ans, "is No")
+    elif ans == "Au revoir":
+      print("The English of", ans, "is Goodbye")
+    elif ans == "Merci":
+      print("The English of", ans, "is Thank you")
+    else: 
+      print("Word not recognized!")
+    
+  
+  print("What would you like to do?")
+  print("1. Translate from English to French")
+  print("2. Translate from French to English")
+  option = int(input("Enter Option: "))
+  
+  if option == 1:
+    translateFrench()
+  elif option == 2:
+    translateEnglish()
+  else: 
+    print("Invalid Number!")
