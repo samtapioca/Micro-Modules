@@ -1,0 +1,3 @@
+dictionary = {"Colour": "Red","Food": "Cake","Number": 5}
+
+print("The length of the list is:", len(dictionary))
