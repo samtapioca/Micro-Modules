@@ -1,0 +1,6 @@
+class Sunshine:
+ 
+  def sun(self):
+    return 'Good Morning, Sunshine!'
+x = Sunshine()
+print (x.sun())
