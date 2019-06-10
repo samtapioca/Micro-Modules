@@ -1,0 +1,2 @@
+f = open("Read_me.txt", "r")
+print(f.read())
