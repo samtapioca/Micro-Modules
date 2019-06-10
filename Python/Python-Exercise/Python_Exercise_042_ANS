@@ -1,5 +1,10 @@
-#Defining a Class
 class Movie:
-  a = 15
-x = Movie()
-print(x.a)
+  def __init__(self,name,genre):
+    self.name = name
+    self.genre = genre
+
+movieName = Movie("Toy Story","Fantasy")
+
+print(movieName.name)
+print(movieName.genre)
+
