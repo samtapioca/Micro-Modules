@@ -1,0 +1,12 @@
+class SumofNum:
+  def Add():
+    i = 1
+    sum = 0
+    num = 1
+    while num != 0:
+      num = int(input("Enter number:"))
+      sum = sum + num
+      i = i - 1
+    print("The sum of entered numbers is", sum)
+
+  Add()
