@@ -1,0 +1,4 @@
+tableSpoon = 1
+tableSpoon = int(input("Enter number of tablespoon: "))
+result = tableSpoon * 3
+print("Number of teaspoons in ", tableSpoon, "tablespoons: ", result) 
