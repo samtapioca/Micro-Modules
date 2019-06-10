@@ -1,0 +1,9 @@
+Instructions: Write a program that takes two string inputs from the user and check if the two strings are the same words.
+
+Output:
+
+Enter first word: corn
+Enter second word: corn
+True
+
+Hint: use
