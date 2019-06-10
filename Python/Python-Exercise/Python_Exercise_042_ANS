@@ -1,0 +1,5 @@
+#Defining a Class
+class Movie:
+  a = 15
+x = Movie()
+print(x.a)
