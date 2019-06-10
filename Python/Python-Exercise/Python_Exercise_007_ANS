@@ -1,0 +1,11 @@
+num1 = 2
+num2 = 4
+num3 = 6
+num4 = 8
+num5 = 10
+
+print("num1 =",num1)
+print("num2 =",num2)
+print("num3 =",num3)
+print("num4 =",num4)
+print("num5 =",num5)
