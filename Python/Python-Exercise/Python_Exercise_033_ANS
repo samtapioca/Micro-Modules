@@ -1,0 +1,2 @@
+tList = ("red", "blue", "green", 1, 2, "3")
+print(tList)
