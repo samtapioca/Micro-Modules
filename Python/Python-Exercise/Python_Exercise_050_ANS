@@ -1,0 +1,10 @@
+try:
+  print("Enter your date of birth in mmddyyyy format:")
+  print("For example: If your birthday is March 15, 1999, please enter 0315199.")
+  bday = int(input("\nEnter Here: "))
+except ValueError: 
+  print("Birthday should only consists of numbers!")
+else:
+  print("Your birthday is on",bday )
+finally: 
+  print("Goodbye!")
