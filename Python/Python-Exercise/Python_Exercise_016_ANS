@@ -1,0 +1,3 @@
+user = input("Enter username: ")
+user.isdigit( )
+print ("Username is all digits:",user.isdigit())
