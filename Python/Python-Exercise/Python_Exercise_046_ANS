@@ -1,0 +1,16 @@
+class Lists:
+ num = 0
+animal = ["dog", "cat", "horse"]
+fruit = ["apple", "pear", "orange"]
+
+def animalList():
+  print(animal)
+      
+def fruitList():
+  print(fruit)
+
+num = int(input("Enter a number: "))
+if num % 2 == 0:
+ animalList()
+else:
+ fruitList()
