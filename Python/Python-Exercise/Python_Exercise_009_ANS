@@ -1,0 +1,5 @@
+print(type(300))
+print(type("dog"))
+print(type(3.5))
+print(type("f"))
+print(type(True))
