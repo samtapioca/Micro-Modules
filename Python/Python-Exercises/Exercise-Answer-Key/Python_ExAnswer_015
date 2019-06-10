@@ -1,3 +1,0 @@
-string1 = input("Enter first word: ")
-string2 = input("Enter second word: ")
-print (string1 == string2)
