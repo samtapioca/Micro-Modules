@@ -1,0 +1,6 @@
+totalPrice = int(input("Enter total price: "))
+discount = totalPrice-(totalPrice * 0.15)
+if totalPrice > 500:
+    print("The total price is:",discount)
+else:
+    print("The total price is:",totalPrice)
