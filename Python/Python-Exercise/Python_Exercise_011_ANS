@@ -1,0 +1,2 @@
+var ="14.74"
+print(type(var))
