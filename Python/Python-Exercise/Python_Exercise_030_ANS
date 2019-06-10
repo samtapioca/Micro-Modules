@@ -1,0 +1,7 @@
+words = 1
+wordList = ['Australia','Japan','Malaysia','Hong Kong']
+for w in wordList:
+    if w.isalpha():
+        words = words + 1
+print(wordList)
+print("Number of words:", words)
