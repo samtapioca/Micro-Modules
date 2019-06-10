@@ -1,9 +1,12 @@
-class Movie:
-  def __init__(self,name,genre):
-    self.name = name
-    self.genre = genre
+def printList():
+    B = ["Apples", "Banana", "Oranges", "DragonFruit"]
+    ans = input("Do you want to print out the list? (Y/N): ")
+    
+    if ans == 'Y':
+        print(B)
+    elif ans =='N':
+        print("List will not be printed")
+    else:
+        print("Invalid Character!")
+printList()
 
-movieName = Movie("Toy Story","Fantasy")
-
-print(movieName.name)
-print(movieName.genre)
