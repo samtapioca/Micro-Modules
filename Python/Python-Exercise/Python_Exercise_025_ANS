@@ -1,0 +1,12 @@
+animal = input("Enter Animal: ")
+
+if animal == "Cat":
+    print("Location of Veterinary Clinic: 17 Pillsburry Street, Central")
+elif animal == "Dog":
+    print("Location of Veterinary Clinic:  28 Valentine Street, North View")
+elif animal == "Rabbit":
+    print("Location of Veterinary Clinic:  97 Crayna Avenue, Kagone Bay")
+elif animal == "Bird":
+    print("Location of Veterinary Clinic:  16B Droid Street, Chan Point")
+else:
+    print("Invalid Animal!")
