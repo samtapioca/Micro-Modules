@@ -1,0 +1,7 @@
+x = 1
+y = []
+while x <= 5:
+    num = int(input("Enter a number:"))
+    y.append(num)
+    x = x+1
+print(y)
