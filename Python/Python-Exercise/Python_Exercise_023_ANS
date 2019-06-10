@@ -1,0 +1,8 @@
+requiredYears = 6
+yearsOfService = int(input("Enter years of service:"))
+
+if yearsOfService >= 6:
+    print("Employee can be promoted to Senior Programmer.")
+else: 
+     yearsOfService = requiredYears - yearsOfService
+     print("Employee needs",yearsOfService,"more years of service before promotion.")
