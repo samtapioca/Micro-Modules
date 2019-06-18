@@ -1,0 +1,19 @@
+import java.io.*;
+
+class Main {
+
+ public static void main( String args[]) {
+    try {
+    FileWriter fw = new FileWriter("Hello.txt");
+    PrintWriter pw = new PrintWriter(fw);
+
+    pw.println("Hello, Text File!");
+
+    pw.close();
+    }
+    catch(IOException e) {
+    System.out.print("File not found!");
+
+    } 
+  }
+}
