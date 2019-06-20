@@ -1,0 +1,8 @@
+class Main {
+  public static void main(String[] args) {
+
+    String msg = "Keep it up, " ; 
+    String name = "John";
+    System.out.println(msg + name);
+  }
+}
