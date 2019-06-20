@@ -1,0 +1,7 @@
+class Main {
+  public static void main(String[] args) {
+
+    int teachers = 579;
+    System.out.println(teachers);
+  }
+}
