@@ -1,0 +1,13 @@
+class Main {
+  public static void main(String[] args) {
+
+    int num1 = 275, num2 = 275;
+
+
+    num1 += 82;
+    num2 -= 82;
+
+    System.out.println(num1);
+    System.out.println(num2);
+  }
+}
