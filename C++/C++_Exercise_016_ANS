@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+  int a = 23;
+  float b = 5743.45;
+  string c = "dog";
+  
+  cout << a << endl;
+  cout << b << endl;
+  cout << c << endl;
+  return 0; 
+}
