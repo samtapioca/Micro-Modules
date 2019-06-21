@@ -1,0 +1,23 @@
+class Main {
+  
+  //Create a checkNum() method with variable num of integer value
+  public static void checkNum( int num) {
+    
+  /*if num is an even number, print out a message stating that num is an even number.*/ 
+    if (num % 2 == 0) {
+    
+      System.out.println( num + " is an even number.");
+    }
+    
+  /*if num is an odd number, print out a message stating that num is an odd number.*/
+    else {
+      System.out.println(num + " is an odd number.");
+    }
+  }
+  
+  
+  public static void main(String[] args) {
+    //call checkNum and pass the number 35
+    checkNum(35);
+  }
+}
