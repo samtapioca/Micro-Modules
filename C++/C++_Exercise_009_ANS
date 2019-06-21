@@ -1,0 +1,8 @@
+//The program display the sum of 10 and 9
+#include <iostream>
+using namespace std;
+
+int main() {
+  cout << "The sum of 10 and 9 is: " << 10 + 9 << endl;
+  return 0;
+}
