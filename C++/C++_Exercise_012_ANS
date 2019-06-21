@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+  int hrs, mins, sec; 
+  
+  cout << "Enter hours: ";
+  cin >> hrs;
+
+  mins = hrs * 60;
+  sec = mins * 60;
+
+  cout << hrs << " hours = " << mins << " mins = " << sec << " seconds";
+  return 0;
+}
