@@ -1,9 +1,0 @@
-class Main {
-  public static void main(String[] args) {
- 
-  double exp1 = Math.exp(81);
-  System.out.println("Exponential Value of 812 = " + exp1);
- 
-
-  }
-}
