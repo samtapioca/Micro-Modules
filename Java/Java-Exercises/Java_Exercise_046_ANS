@@ -1,0 +1,13 @@
+class NewClass {
+   public static void helloJava() {
+     System.out.println("Hello, Java!");
+  }
+}
+
+
+class Main {
+  public static void main(String[] args) {
+    NewClass Hello = new NewClass();
+    Hello.helloJava();
+  }
+}
