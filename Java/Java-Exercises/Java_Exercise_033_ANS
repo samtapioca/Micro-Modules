@@ -1,0 +1,87 @@
+import java.util.Scanner;
+ 
+public class Main {
+ 
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        String answer;
+ 
+        System.out.println("Welcome to Java's Ice Cream Shop!");
+        System.out.println("The following flavours are available: ");
+        System.out.println("\t [1] Chocolate Ice Cream");
+        System.out.println("\t [2] Strawberry Ice Cream");
+        System.out.println("\t [3] Coffee Ice Cream");
+        System.out.print("Enter Number of Choice: ");
+        answer = in.nextLine();
+ 
+        if (answer.equals("1")) {
+            System.out.println("Ice cream of choice: Chocolate ");
+            System.out.println("Ice Cream Type: ");
+            System.out.println("\t [1] Cup  - $3.00");
+            System.out.println("\t [2] Cone - $5.00");
+            System.out.print("Enter Number of Choice: ");
+            answer = in.nextLine();
+ 
+            if (answer.equals("1")) {
+                System.out.println("\nIce Cream Flavour: Chocolate ");
+                System.out.println("Ice Cream Type: Cup ");
+                System.out.println("Cost of Meal: $3.00 ");
+            }
+            else if (answer.equals("2")) {
+              System.out.println("\nIce Cream Flavour: Chocolate ");
+                System.out.println("Ice Cream Type: Cone ");
+                System.out.println("Cost of Meal: $5.00 ");
+            }
+            else {
+              System.out.println("Invalid number. Enter a number from 1-2.");
+            }
+        }
+        else if (answer.equals("2")) {
+           System.out.println("Ice cream of choice: Strawberry ");
+            System.out.println("Ice Cream Type: ");
+            System.out.println("\t [1] Cup  - $3.00");
+            System.out.println("\t [2] Cone - $5.00");
+            System.out.print("Enter Number of Choice: ");
+            answer = in.nextLine();
+ 
+            if (answer.equals("1")) {
+                System.out.println("\nIce Cream Flavour: Strawberry ");
+                System.out.println("Ice Cream Type: Cup ");
+                System.out.println("Cost of Meal: $3.00 ");
+            }
+            else if (answer.equals("2")) {
+              System.out.println("\nIce Cream Flavour: Chocolate ");
+                System.out.println("Ice Cream Type: Cone ");
+                System.out.println("Cost of Meal: $5.00 ");
+            }
+            else {
+              System.out.println("Invalid number. Enter a number from 1-2.");
+            }
+          }
+        else if (answer.equals("3")) {
+           System.out.println("Ice cream of choice: Chocolate ");
+            System.out.println("Ice Cream Type: ");
+            System.out.println("\t [1] Cup  - $3.00");
+            System.out.println("\t [2] Cone - $5.00");
+            System.out.print("Enter Number of Choice: ");
+            answer = in.nextLine();
+ 
+            if (answer.equals("1")) {
+                System.out.println("\nIce Cream Flavour: Coffee ");
+                System.out.println("Ice Cream Type: Cup ");
+                System.out.println("Cost of Meal: $3.00 ");
+            }
+            else if (answer.equals("2")) {
+              System.out.println("\nIce Cream Flavour: Coffee ");
+                System.out.println("Ice Cream Type: Cone ");
+                System.out.println("Cost of Meal: $5.00 ");
+            }
+            else {
+              System.out.println("Invalid number. Enter a number from 1-2.");
+            }
+            }
+        else {
+           System.out.println("Invalid number. Enter a number from 1-3.");
+        }
+    }
+}
