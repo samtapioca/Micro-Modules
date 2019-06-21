@@ -1,0 +1,13 @@
+ #include <iostream>
+ using namespace std;
+
+int main() {
+  string firstName = "Student's name";
+  float walkingHours = 3.6;
+  int carMinutes = 50;
+  
+  cout << "My name is " << firstName << "." << endl;
+  cout << "It takes me " << walkingHours << "to get to school by foot." << endl; 
+  cout << "It takes me 50" << carMinutes << "to get to school by car." << endl;
+  return 0;
+}
