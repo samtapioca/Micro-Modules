@@ -1,0 +1,11 @@
+class Main {
+  public static void main(String[] args) {
+
+    int x;  
+
+    for(x = 0; x <= 17; x++) {
+
+    System.out.println("Bring good coffee to life!");
+    }
+  }
+}
