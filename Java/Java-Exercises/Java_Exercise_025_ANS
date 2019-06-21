@@ -17,3 +17,4 @@ class Main {
     System.out.println("The minimum value is " + min);
   }
 }
+ 
