@@ -1,0 +1,11 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+
+  char sentence[30]; 
+
+  cout << "Enter a sentence: ";
+  cin.get(sentence,30);
+  cout << sentence;
+}
