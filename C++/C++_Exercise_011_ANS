@@ -1,0 +1,32 @@
+#include <iostream>
+using namespace std; 
+
+int main() {
+  
+  int x= 12, y= 6, result;
+  
+  //Expression #1
+  result = x / 4;
+  cout << " " << result << endl;
+  
+   //Expression #2
+  result = x + y * 2;
+  cout << " " << result << endl;
+  
+   //Expression #3
+  result = (x * y) - 2;
+  cout << " " << result << endl;
+  
+   //Expression #4
+  result = x % y;
+  cout << " " << result << endl;
+  
+   //Expression #5
+  result = x / 4.0;
+  cout << " " << result << endl;
+  
+   //Expression #6
+  result = (x * 3) * y;
+  cout << " " << result << endl;
+
+}
