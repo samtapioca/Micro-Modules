@@ -1,0 +1,28 @@
+#include <iostream>
+using namespace std; 
+
+int main() {
+  int num1, num2, num3;
+
+  cout << "Enter age of Sam: ";
+  cin >> num1;
+  cout << "Enter age of Jam: ";
+  cin >> num2;
+  cout << "Enter age of Pam: ";
+  cin >> num3;
+
+  if(num1>num2) {
+      if(num1>num3)
+         cout<< "Sam is the oldest!";
+      else
+         cout<< "Pam is the oldest!"; 
+   }else {
+      if(num2>num3)
+         cout << "Jam is the oldest!";
+      else
+         cout << "Pam is the oldest!";
+   }
+
+
+  return 0;
+}
