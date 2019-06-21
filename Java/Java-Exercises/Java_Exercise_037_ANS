@@ -3,7 +3,7 @@ class Main {
 
     int x;  
 
-    for(x = 0; x <= 17; x++) {
+    for(x = 1; x <= 17; x++) {
 
     System.out.println("Bring good coffee to life!");
     }
