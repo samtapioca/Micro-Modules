@@ -1,0 +1,35 @@
+import java.util.Scanner;
+ 
+class Main {
+  public static void main(String[] args) {
+    Scanner n = new Scanner(System.in);
+    int num1, num2, result;
+ 
+    System.out.print("Enter first number: ");
+    num1 = n.nextInt();
+ 
+    System.out.print("Enter second number: ");
+    num2 = n.nextInt();
+ 
+    switch(num1) {
+      case 1:
+      case 3:
+      case 5:
+      case 7:
+      case 9:
+        result = num1 * num2;
+        System.out.println(num1 + " * " +  num2 + " = " + result);
+        break;
+      case 2:
+      case 4:
+      case 6:
+      case 8:
+      case 10:
+        result = num1 + num2;
+        System.out.println(num1 + " + " +  num2 + " = " + result);
+        break;
+        default:
+        System.out.println("Enter a number between 1 to 10!");
+        }
+    }
+}
