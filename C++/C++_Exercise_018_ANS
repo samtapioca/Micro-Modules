@@ -1,0 +1,8 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+int employees = 45;
+  
+  cout << "Total number of employees: " << employees;
+}
