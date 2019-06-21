@@ -1,27 +1,28 @@
-year = int(input("Enter Birth Year: "))
-if (year - 2000) % 12 == 0:
-    zSign = 'Dragon'
-elif (year - 2000) % 12 == 1:
-    zSign = 'Snake'
-elif (year - 2000) % 12 == 2:
-    zSign = 'Horse'
-elif (year - 2000) % 12 == 3:
-    zSign = 'sheep'
-elif (year - 2000) % 12 == 4:
-    zSign = 'Monkey'
-elif (year - 2000) % 12 == 5:
-    zSign = 'Rooster'
-elif (year - 2000) % 12 == 6:
-    zSign = 'Dog'
-elif (year - 2000) % 12 == 7:
-    zSign = 'Pig'
-elif (year - 2000) % 12 == 8:
-    zSign = 'Rat'
-elif (year - 2000) % 12 == 9:
-    zSign = 'Ox'
-elif (year - 2000) % 12 == 10:
-    zSign = 'Tiger'
+year = int(input("Enter your Birth Year:"))
+ 
+if(year - 2000) % 12 == 0:
+    zodSign = 'Dragon'
+elif(year - 2000) % 12 == 1:
+    zodSign = 'Snake'
+elif(year - 2000) % 12 == 2:
+    zodSign = 'Horse'
+elif(year - 2000) % 12 == 3:
+    zodSign = 'Sheep'
+elif(year - 2000) % 12 == 4:
+    zodSign = 'Monkey'
+elif(year - 2000) % 12 == 5:
+    zodSign = 'Rooster'
+elif(year - 2000) % 12 == 6:
+    zodSign = 'Dog'
+elif(year - 2000) % 12 == 7:
+    zodSign = 'Pig'
+elif(year - 2000) % 12 == 8:
+    zodSign = 'Rat'
+elif(year - 2000) % 12 == 9:
+    zodSign = 'Ox'
+elif(year - 2000) % 12 == 10:
+    zodSign = 'Tiger'
 else:
-    zSign = 'Hare'
-
-print("Your Zodiac sign :",zSign)
+    zodSign = 'Hare'
+ 
+print("Your Chinese Zodiac Sign is:", zodSign)
