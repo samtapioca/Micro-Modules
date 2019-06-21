@@ -1,0 +1,13 @@
+/*
+This program displays the message "You can do it!"
+It is written by John Doe
+This is a begginer level program
+*/
+
+#include <iostream>
+using namespace std;
+
+int main() {
+  cout << "You can do it!";
+  return 0;
+}
