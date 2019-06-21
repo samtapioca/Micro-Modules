@@ -1,0 +1,33 @@
+import java.util.Scanner;
+ 
+class Main {
+  public static void main(String[] args) {
+    Scanner n = new Scanner(System.in);
+    char ans;
+ 
+    System.out.println("What programming language are you learning now?");
+    System.out.println("a. C++");
+    System.out.println("b. C  ");
+    System.out.println("c. Java  ");
+    System.out.println("c. Julia ");
+    System.out.print("Enter your letter of choice: ");
+    ans = n.next().charAt(0);
+
+    switch(ans) {
+      case 'a':
+        System.out.println("Wrong");
+        break;
+      case 'b':
+        System.out.println("Wrong");
+        break;
+      case 'c':
+        System.out.println("Correct");
+        break;
+      case 'd':
+        System.out.println("Wrong");
+        break;
+       default:
+        System.out.println("Please only input letters between a to d!");
+    }
+  }
+}
