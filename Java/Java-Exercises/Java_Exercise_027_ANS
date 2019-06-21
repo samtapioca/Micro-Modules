@@ -1,0 +1,22 @@
+import java.util.Scanner;
+ 
+class Main {
+  public static void main(String[] args) {
+    Scanner n = new Scanner(System.in);
+    double num1, num2;
+ 
+    System.out.print("Enter first number: ");
+    num1 = n.nextDouble();
+ 
+    System.out.print("Enter second number: ");
+    num2 = n.nextDouble();
+
+    num1 = Math.ceil(num1);
+    num2 = Math.floor(num2);
+
+    System.out.println("num1: " + num1);
+    System.out.println("num2: " + num2);
+    
+ 
+  }
+}
