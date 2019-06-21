@@ -1,0 +1,7 @@
+list =  [4, 8, 12]
+
+total = 0
+for i in list:
+  total = total + i
+
+print("The sum of", list, "is", total)
