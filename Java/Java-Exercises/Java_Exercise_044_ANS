@@ -1,0 +1,79 @@
+import java.util.Scanner;
+
+class Main {
+
+    public static int addNum(int num1, int num2) {
+        int sum;
+        sum = num1 + num2;
+        return sum;
+    }
+    
+     public static int subtractNum(int num1, int num2) {
+        int difference;
+        difference = num1 - num2;
+        return difference;
+    }
+
+     public static int multiplyNum(int num1, int num2) {
+        int product;
+        product = num1 * num2;
+        return product;
+    }
+
+     public static int divideNum(int num1, int num2) {
+        int quotient;
+        quotient = num1 / num2;
+        return quotient;
+    }
+
+  public static void main(String[] args) {
+        int num1,num2, result, ans;
+ 
+        Scanner n = new Scanner(System.in);
+
+        System.out.println("Choose an Operation: ");
+        System.out.println("(1) Addition");
+        System.out.println("(2) Subtraction");
+        System.out.println("(3) Multiplication");
+        System.out.println("(4) Division");
+        System.out.print("Enter number of choice: ");
+        ans = n.nextInt();
+
+    switch(ans) {
+      case 1:
+        System.out.print("Enter first number: ");
+        num1 = n.nextInt();
+        System.out.print("Enter second number: ");
+        num2 = n.nextInt();
+        result = addNum(num1,num2);
+        System.out.println(num1 + " + " + num2 + " = " + result);
+        break;
+      case 2:
+        System.out.print("Enter first number: ");
+        num1 = n.nextInt();
+        System.out.print("Enter second number: ");
+        num2 = n.nextInt();
+        result = subtractNum(num1,num2);
+        System.out.println(num1 + " - " + num2 + " = " + result);
+        break;
+      case 3:
+        System.out.print("Enter first number: ");
+        num1 = n.nextInt();
+        System.out.print("Enter second number: ");
+        num2 = n.nextInt();
+        result = multiplyNum(num1,num2);
+        System.out.println(num1 + " * " + num2 + " = " + result);
+        break;
+      case 4:
+        System.out.print("Enter first number: ");
+        num1 = n.nextInt();
+        System.out.print("Enter second number: ");
+        num2 = n.nextInt();
+        result = divideNum(num1,num2);
+        System.out.println(num1 + " / " + num2 + " = " + result);
+        break;
+       default:
+        System.out.println("Please only input numbers 1-4!");
+    }
+ }
+}
