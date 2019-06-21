@@ -1,0 +1,12 @@
+string = input("Enter a String : ")
+letters = 0 
+num = 0
+
+for i in range(len(string)):
+    if(string[i].isalpha()):
+        letters = letters + 1
+    elif(string[i].isdigit()):
+        num = num + 1
+               
+print("\nNumber of letters:", letters)
+print("Number of digits:",num)
