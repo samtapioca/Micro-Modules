@@ -1,0 +1,25 @@
+#include <iostream>
+#include <math.h>
+using namespace std;
+
+int main() {
+    int numClasses, numClassesAttended;
+    float attendance;
+    
+    cout << "Enter number of classes: ";
+    cin >> numClasses;
+    
+    cout << "Enter number of classes student attended: ";
+    cin >> numClassesAttended;
+    
+    attendance = (float(numClassesAttended)/(float(numClasses)) * 100);
+    
+    cout << "Student's Attendance: " << ceil(attendance) << "%" << endl;
+    
+    if (attendance < 60) {
+        cout << "Student must attend summer class" << endl;
+    }
+    else {
+        cout << "Student does not need to attend summer class";
+    }
+}
