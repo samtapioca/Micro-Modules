@@ -1,0 +1,132 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    
+    int numofChoice;
+    float amtMoney, amtChange;
+    
+
+    cout << endl;
+    cout << "----Select an Item-----" << endl;
+    cout << "o=============================o" << endl;
+    cout << "| (1) Chocolate Bar - $ 10.00 |" << endl;
+    cout << "| (2) Potato Chips  - $ 17.00 |" << endl;
+    cout << "| (3) Gummy Bears   - $ 6.50  |" << endl;
+    cout << "| (4) Cup Noodles   - $ 21.30 |" << endl;
+    cout << "| (5) Peanuts       - $ 13.00 |" << endl;
+    cout << "o=============================o" << endl << endl;
+    
+    cout << "Enter Number of Choice: ";
+    cin >> numofChoice;
+
+    if (numofChoice == 1 )   
+    {
+      cout << endl;
+      cout << "You chose Chocolate Bar" << endl;
+      cout << "Price: $10.00 " << endl;
+      cout << "Enter amount of money: ";
+      cin >> amtMoney;
+
+      if (amtMoney >= 10)
+      {
+      amtChange = amtMoney - 10.00;
+      cout << endl;
+      cout << "You chose Chocolate Bar" << endl;
+      cout << "Money Entered: " << amtMoney << endl;
+      cout << "Change: " << amtChange << endl;
+      }
+      else
+      {
+        cout << "Not enough money." << endl;
+      }
+    }
+    else if (numofChoice == 2 )   
+    {
+      cout << endl;
+      cout << "You chose Potato Chips " << endl;
+      cout << "Price: $17.00 " << endl;
+      cout << "Enter amount of money: ";
+      cin >> amtMoney;
+
+      if (amtMoney >= 17)
+      {
+      amtChange = amtMoney - 17;
+      cout << endl;
+      cout << "You chose Chocolate Bar" << endl;
+      cout << "Money Entered: " << amtMoney << endl;
+      cout << "Change: " << amtChange << endl;
+      }
+      else
+      {
+        cout << "Not enough money." << endl;
+      }
+    }
+    else if (numofChoice == 3)    
+    {
+      cout << endl;
+      cout << "You chose Gummy Bears " << endl;
+      cout << "Price: $6.50 " << endl;
+      cout << "Enter amount of money: ";
+      cin >> amtMoney;
+
+      if (amtMoney >= 6.50)
+      {
+      amtChange = amtMoney - 6.50;
+      cout << endl;
+      cout << "You chose Chocolate Bar" << endl;
+      cout << "Money Entered: " << amtMoney << endl;
+      cout << "Change: " << amtChange << endl;
+      }
+      else
+      {
+        cout << "Not enough money." << endl;
+      }
+    }
+    else if (numofChoice == 4 )   
+    {
+      cout << endl;
+      cout << "You chose Cup Noodles" << endl;
+      cout << "Price: $21.30 " << endl;
+      cout << "Enter amount of money: ";
+      cin >> amtMoney;
+
+      if (amtMoney >= 21.30)
+      {
+      amtChange = amtMoney - 21.30;
+      cout << endl;
+      cout << "You chose Chocolate Bar" << endl;
+      cout << "Money Entered: " << amtMoney << endl;
+      cout << "Change: " << amtChange << endl;
+      }
+      else
+      {
+        cout << "Not enough money. Exiting Program." << endl;
+      }
+    }
+    else if (numofChoice == 5 )   
+    {
+      cout << endl;
+      cout << "You chose Peanuts" << endl;
+      cout << "Price: $13.00 " << endl;
+      cout << "Enter amount of money: ";
+      cin >> amtMoney;
+
+      if (amtMoney >= 13)
+      {
+      amtChange = amtMoney - 13;
+      cout << endl;
+      cout << "You chose Chocolate Bar" << endl;
+      cout << "Money Entered: " << amtMoney << endl;
+      cout << "Change: " << amtChange << endl;
+      }
+      else
+      {
+        cout << "Not enough money." << endl;
+      } 
+    }
+  else
+   {
+     cout << "Invalid Number. Enter a number from 1-5." << endl;
+   }
+}
