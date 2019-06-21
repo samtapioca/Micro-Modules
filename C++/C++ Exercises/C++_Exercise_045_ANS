@@ -1,0 +1,19 @@
+#include <iostream>
+#include <string>
+
+int main() {
+    
+    std::string faveSoftDrink;
+    std::string faveIceCream;
+    
+    std::cout << "What is your favourite soft drink? ";
+    std::cin >> faveSoftDrink;
+    
+    std::cout << "What is your favourite ice cream? ";
+    std::cin >> faveIceCream;
+    
+    std::cout << "Your favourite soft drink is " << faveSoftDrink << std::endl;
+    std::cout << "Your favourite ice cream is " << faveIceCream << std::endl;
+    
+    return 0;
+}
