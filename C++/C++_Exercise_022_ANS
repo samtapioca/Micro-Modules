@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+#include <math.h> 
+
+int main() {
+  float totalitre,juiceJug=3.75, cost=3.4, prof=2.45;
+  float numJuice, totalCost, totalProfit;
+
+  cout << "Enter total amount of juice in litres: ";
+  cin >> totalitre;
+ 
+  numJuice = totalitre * juiceJug;
+  totalCost = cost * totalitre;
+  totalProfit = prof * totalitre;
+
+
+  cout << endl;
+  cout << "Number of juice jugs needed to hold the juice: " << ceil(numJuice) << endl;
+  cout << "Cost of producing Milk: " << totalCost << endl;
+  cout << "Profit for producing milk: " << totalProfit << endl;
+  return 0;
+}
