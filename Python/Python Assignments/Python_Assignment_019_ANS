@@ -1,0 +1,50 @@
+result = 0
+def add():
+ result = num1 + num2
+ print(num1, "+", num2, "=", result)
+ return result 
+
+def substract():
+ result = num1 - num2
+ print(num1, "-", num2, "=", result)
+ return result 
+
+def multiply():
+ result = num1 * num2
+ print(num1, "*", num2, "=", result)
+ return result 
+
+def divide():
+ result = num1 / num2
+ print(num1, "/", num2, "=", result)
+ return result 
+
+print("What would you like to do?")
+print("1. I want to Add")
+print("2. I want to Subtract")
+print("3. I want to Multiply")
+print("4. I want to Divide")
+choice = int(input("Enter Option: "))
+
+if choice == 1:
+  num1 = int(input("Enter First Number: "))
+  num2 = int(input("Enter Second Number: "))
+  add()
+
+if choice == 2:
+  num1 = int(input("Enter First Number: "))
+  num2 = int(input("Enter Second Number: "))
+  substract()
+
+if choice == 3:
+  num1 = int(input("Enter First Number: "))
+  num2 = int(input("Enter Second Number: "))
+  multiply()
+
+if choice == 4:
+  num1 = int(input("Enter First Number: "))
+  num2 = int(input("Enter Second Number: "))
+  divide()
+
+
+  
