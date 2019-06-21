@@ -1,0 +1,2 @@
+length = "What is my length?"
+print(len(length))
