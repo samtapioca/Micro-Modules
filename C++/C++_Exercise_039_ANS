@@ -1,0 +1,63 @@
+#include <iostream>
+using namespace std;
+
+string name, command;
+
+void sayGoodMorning() {
+    cout << "Good Morning, " << name << "!" << endl;
+    
+}
+
+void sayGoodNight() {
+    cout << "Good Night, " << name << "!" << endl;
+    
+}
+
+void sayHappyBirthday() {
+    cout << "Happy Birthday, " << name << "!" << endl;
+    
+}
+
+void sayGoodbye() {
+    cout << "Goodbye, " << name << "!" << endl;
+    
+}
+
+
+int main() {
+    
+    cout << "Enter your name: ";
+    cin >> name;
+    cout << endl;
+while (command != "Goodbye")
+{
+    cout << endl;
+    cout << "Hello " << name << ", How can I help you? ";
+    cin >> command;
+    
+
+    if (command == "Morning")
+    {
+        sayGoodMorning();
+    }
+    else if (command == "Night")
+    {
+        sayGoodNight();
+    }
+    else if (command == "Birthday")
+    {
+        sayHappyBirthday();
+    }
+    else if (command == "Goodbye")
+    {
+        sayGoodbye();
+        break;
+    }
+    else
+    {   
+        cout << "Invalid Command. Please try again." << endl;
+    }
+
+}
+    return 0;
+}
