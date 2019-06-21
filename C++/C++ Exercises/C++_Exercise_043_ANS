@@ -1,0 +1,55 @@
+#include <iostream>
+using namespace std;
+
+int n=0,age[60];
+string firstName[200],lastName[200],faveSubject[200];
+void enterStudents() {
+
+
+    for (int x=0;x<n;x++)
+    {
+        cout << "\nStudent Information " << endl;
+        cout << "\t\t\tFirst Name: ";
+        cin >> firstName[x];
+        cout << "\t\t\tLast Name: ";
+        cin >> lastName[x];
+        cout << "\t\t\tAge: ";
+        cin >> age[x];
+        cout << "\t\t\tFavourite Subject: ";
+        cin >> faveSubject[x];
+    }
+}
+void displayStudents() {    
+    
+    cout << endl;
+    cout << "\t\t" << "+-------------------------------+" << endl;
+    cout << "\t\t|\t\t" << "SUMMARY                 |" << endl;
+    cout << "\t\t" << "+-------------------------------+" << endl;
+    cout << "   " << "+------------------------------------------------------+" << endl;
+    cout << "   " << "| First Name   Last Name   Age   Favourite Subject     |" << endl;
+    cout << "   " << "+------------------------------------------------------+" << endl;
+    
+    for(int y=0; y<n;y++)
+    {
+        cout << "   |  " << firstName[y] << "\t\t  " << lastName[y] << "\t\t       " << age[y] << "\t\t  " << faveSubject[y] << "       |     " << endl;
+    }
+    cout << "   " << "+-----------------------------------------------------+" << endl;
+    
+}
+int main()
+
+{
+    cout << "\t\t\t" << "Enter Number of Students: ";
+    cin >> n;
+    cout << endl;
+      if (n > 10) {
+      cout << "Invalid Input." << endl;
+      cout << "You cannot have more than 10 students.";
+    }
+
+    else {
+      enterStudents();
+      displayStudents();
+    }
+    return 0;
+}
