@@ -1,0 +1,16 @@
+class Main {
+  public static void main(String[] args) {
+
+    int x, y, a, b, result1, result2;
+
+    x = 3;
+    y = 3;
+    result1 = x + y;
+
+    a = 2; 
+    b = 2;
+    result2 = a + b;
+
+    System.out.println(result1 == result2);
+  }
+}
