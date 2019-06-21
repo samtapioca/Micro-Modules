@@ -1,0 +1,21 @@
+import java.util.Scanner;
+ 
+class Main {
+  public static void main(String[] args) {
+    Scanner n = new Scanner(System.in);
+    String fname, lname, email;
+ 
+    System.out.print("Enter First Name: ");
+    fname = n.nextLine();
+ 
+    System.out.print("Enter Last Name: ");
+    lname = n.nextLine();
+
+    System.out.print("Enter Email Address: ");
+    email = n.nextLine();
+ 
+    System.out.println(fname);
+    System.out.println(lname);
+    System.out.println(email);
+  }
+}
