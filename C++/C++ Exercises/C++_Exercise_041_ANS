@@ -1,0 +1,8 @@
+#include <iostream>
+    using namespace std;
+    int main()
+    {
+        char str[25] = "Good Morning Sunshine!";
+        cout << str;
+        return 0;
+    }
