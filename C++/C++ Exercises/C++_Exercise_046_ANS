@@ -1,0 +1,19 @@
+#include<iostream>
+ using namespace std;
+ 
+class HelloWorld
+{
+   public:
+
+      void display() {
+      cout << "Hello World!" << endl;
+  }
+};
+ 
+int main()
+{
+    HelloWorld hello;    //Creates an Object
+    hello.display();  //Calls a function
+ 
+    return 0;
+}
