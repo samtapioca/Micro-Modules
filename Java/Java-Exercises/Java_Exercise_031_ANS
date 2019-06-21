@@ -1,0 +1,23 @@
+import java.util.Scanner;
+ 
+class Main {
+  public static void main(String[] args) {
+    Scanner n = new Scanner(System.in);
+    double num1;
+    double num2;
+ 
+    System.out.print("Enter First Number: ");
+    num1 = n.nextDouble();
+ 
+    System.out.print("Enter Second Number: ");
+    num2 = n.nextDouble();
+
+    num1  = Math.log(num1);
+    num2  = Math.log(num2);
+ 
+   System.out.println("log num1 = " + num1);
+   System.out.println("log num2 = " + num2);
+
+
+  }
+}
