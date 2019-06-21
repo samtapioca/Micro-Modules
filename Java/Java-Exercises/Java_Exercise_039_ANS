@@ -1,0 +1,17 @@
+class Main
+{
+    public static void main(String[] args)
+    {
+        String[] sports = new String[5];
+        sports[0] = "Basketball";
+        sports[1] = "Baseball";
+        sports[2] = "Badminton";
+        sports[3] = "Dodgeball";
+
+        System.out.println(sports[0]);
+        System.out.println(sports[1]);
+        System.out.println(sports[2]);
+        System.out.println(sports[3]);
+ 
+    }
+}
