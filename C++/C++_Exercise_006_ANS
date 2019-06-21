@@ -1,0 +1,11 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+  
+  //Output is name of student
+  cout << "John" << endl;
+  //Output is student's favourite season
+  cout << "Summer";
+  return 0;
+}
