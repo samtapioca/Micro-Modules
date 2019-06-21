@@ -1,0 +1,2 @@
+list = ["Python", "Java", "C++", "C", "Ruby"]
+print(list[2])
