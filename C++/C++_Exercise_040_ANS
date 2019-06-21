@@ -1,0 +1,79 @@
+#include <iostream>
+using namespace std;
+double num;
+
+double cmtoInches() {
+    double inches;
+    inches = num / 2.54;
+    return inches;
+}
+
+double inchestoCM() {
+    double cm;
+    cm = num * 2.54;
+    return cm;
+}
+
+double feetoMeters() {
+    double meters;
+    meters = num / 3.281;
+    return meters;
+}
+
+double meterstoFeet() {
+    double feet;
+    feet = num * 3.281;
+    return feet;
+}
+
+
+int main() {
+
+  int numofChoice;
+  double result;
+
+  cout << "Choose a Conversion: " << endl;
+  cout << "(1) CM to Inches" << endl;
+  cout << "(2) Inches to CM" << endl;
+  cout << "(3) Feet to Meters" << endl;
+  cout << "(4) Meters to Feet" << endl;
+  cout << "Enter number of choice: ";
+  cin >> numofChoice;
+
+  if (numofChoice == 1) {
+    cout << "Enter Number in Centimeters: ";
+    cin >> num;
+
+    result = cmtoInches();
+    cout << "Number in Centimeters: " << result;
+
+  }
+  else if (numofChoice == 2) {
+    cout << "Enter Number in Inches: ";
+    cin >> num;
+
+    result = inchestoCM();
+    cout << "Number in Inches: " << result;
+
+  }
+
+  else if (numofChoice == 3) {
+    cout << "Enter Number in Feet: ";
+    cin >> num;
+    result = feetoMeters();
+    cout << "Number in Meters: " << result;
+
+  }
+  else if (numofChoice == 4) {
+    cout << "Enter Number in meters: ";
+    cin >> num;
+    result = meterstoFeet();
+    cout << "Number in Feet: " << result;
+
+  }
+  else {
+      cout << "Invalid Choice. Please try again.";
+    }
+
+    return 0;
+}
