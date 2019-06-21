@@ -1,0 +1,15 @@
+string = input("Enter a string: ")
+
+
+upper = 0
+lower = 0
+
+for x in string: 
+    if (x.isupper()) == True: 
+        upper = upper + 1
+
+    elif (x.islower()) == True: 
+        lower = lower + 1
+
+print("Uppercase Letters:", upper) 
+print("Lowercase Letters: ", lower) 
