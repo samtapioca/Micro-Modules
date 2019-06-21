@@ -1,0 +1,4 @@
+list = ["Arts", "Music", "Chinese", "History", "English"]
+list[3] = "Science" 
+
+print(list)
