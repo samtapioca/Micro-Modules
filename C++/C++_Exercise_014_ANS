@@ -1,0 +1,28 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+  string a ="integer", b = "float", c = "char", d = "string";
+  
+  cout << "Which data type would be most appropriate to use for the following data values?" << endl;
+  cout << "Write your answer in the space provided in the output statement" << endl << endl;
+  
+  cout << "1. Eye colour" << endl;
+  cout << "Answer: " << d << endl << endl ; 
+  
+  cout << "2. Minutes remaining in class" << endl;
+  cout << "Answer: " << a << endl << endl ; 
+  
+  cout << "3. A single letter of the alphabet" << endl;
+  cout << "Answer: " << c << endl << endl; 
+  
+  cout << "4. Number of seats in a movie theatre" << endl;
+  cout << "Answer: " << a << endl << endl; 
+  
+  cout << "5. Area of a triangle" << endl;
+  cout << "Answer: " << b << endl << endl; 
+  
+  cout << "6. Number of Facebook friends" << endl;
+  cout << "Answer: " << a << endl << endl; 
+  
+}
