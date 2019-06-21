@@ -1,0 +1,32 @@
+/** EXAMPLE **/
+
+#include <iostream>
+using namespace std;
+ 
+class Animal {
+public:
+ 
+    int age;
+    string kindofAnimal;
+    string name;
+    string colour;
+    string size;
+};
+ 
+int main () {
+    Animal example;
+ 
+    example.name = "Ryan";
+    example.kindofAnimal = "Hamster";
+    example.colour = "Brown";
+    example.size = "Small";
+    example.age = 3;
+ 
+    cout << "Name: " << example.name << endl;
+    cout << "Type of Animal: "<< example.kindofAnimal << endl;
+    cout << "Color: "<< example.colour << endl;
+    cout << "Size: " << example.size << endl;
+    cout << "Age: "<< example.age << " years old" << endl;
+ 
+    return 0;
+}
