@@ -1,0 +1,18 @@
+gender = input("What is your gender (M/F)? ")
+
+if gender == "M":
+  age = int(input("How old are you? "))
+  if age >= 13 and age <= 18:
+    height = int(input("How tall are you? "))
+    if height >= 176 and height <= 300:
+      gpa = float(input("What is your GPA? "))
+      if gpa <= 4.3 and gpa >= 2.00:
+        print("You are qualified!")
+      else:
+        print("You are not qualified!")
+    else:
+      print("You are not qualified!")
+  else:
+    print("You are not qualified!")
+else:
+  print("You are not qualified!")
