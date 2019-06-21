@@ -1,0 +1,10 @@
+class Main {
+  public static void main(String[] args) {
+ 
+    double result1 = Math.floorDiv(-55,6);
+    System.out.println("Floor Division: " + result1);
+ 
+    double result2 = -55 / 6;
+    System.out.println("Division: " + result2);
+  }
+}
