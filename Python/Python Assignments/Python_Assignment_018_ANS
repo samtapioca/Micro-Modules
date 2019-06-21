@@ -1,15 +1,20 @@
 string = input("Enter a string: ")
 
+def upper():
+  upper = 0
+  for i in string:
+    if(i.isupper() == True):
+       upper = upper + 1
+  print("Uppercase Letters:", upper)
 
-upper = 0
-lower = 0
 
-for x in string: 
-    if (x.isupper()) == True: 
-        upper = upper + 1
+def lower():
+  lower = 0
+  for i in string:
+    if(i.islower() == True):
+      lower = lower + 1
+  print("Lowercase Letters:", lower)
 
-    elif (x.islower()) == True: 
-        lower = lower + 1
 
-print("Uppercase Letters:", upper) 
-print("Lowercase Letters: ", lower) 
+upper()
+lower()
