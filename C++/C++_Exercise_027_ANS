@@ -1,0 +1,233 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    string artist = "Jas Peach", place  = "PolyWood Avenue", ticketType;
+    int ticketnum,ticketChoice, ticketPrice, ticketsAvailable = 5, generalPrice = 480, silverPrice = 895, goldPrice = 1355;
+   
+    
+    cout << "Name of Concert: " << artist << endl;
+    cout << "Location: " << place << endl;
+    cout << "Tickets Available: " << ticketsAvailable << endl << endl;
+    
+    cout << "How many Tickets do you want to buy? ";
+    cin  >> ticketnum;
+    
+    
+    if (ticketnum == 1)
+    {
+        cout << endl;
+        cout << "Select a Ticket type:   "     << endl;
+        cout << "[1] General Admission:      " << "$" << generalPrice << endl;
+        cout << "[2] Silver Admission:       " << "$" << silverPrice << endl;
+        cout << "[3] Gold Admission:         " << "$" << goldPrice << endl;
+        cout << "Enter number of choice: ";
+        cin  >> ticketChoice;
+        
+        if (ticketChoice == 1)
+        {
+            ticketType = "General Admission";
+            cout << endl;
+            cout << "Name of Concert: " << artist << endl;
+            cout << "Number of Tickets: " << ticketnum << endl;
+            ticketPrice = 480 * ticketnum;
+            cout << "Ticket Price: " << "$" << ticketPrice << endl;
+            cout << "Thank you for buying! " << endl;
+        }
+        if (ticketChoice == 2)
+        {
+            ticketType = "Silver Admission";
+            cout << endl;
+            cout << "Name of Concert: " << artist << endl;
+            cout << "Number of Tickets: " << ticketnum << endl;
+            ticketPrice = 895 * ticketnum;
+            cout << "Ticket Price: " << "$" << ticketPrice << endl;
+            cout << "Thank you for buying! " << endl;
+        }
+        
+        if (ticketChoice == 3)
+        {
+            ticketType = "Gold Admission";
+            cout << endl;
+            cout << "Name of Concert: " << artist << endl;
+            cout << "Number of Tickets: " << ticketnum << endl;
+            ticketPrice = 1355 * ticketnum;
+            cout << "Ticket Price: " << "$" << ticketPrice << endl;
+            cout << "Thank you for buying!" << endl;
+        }
+    }
+    else if (ticketnum == 2 )
+    {
+        cout << endl;
+        cout << "Select a Ticket type:   "     << endl;
+        cout << "[1] General Admission:      " << "$" << generalPrice << endl;
+        cout << "[2] Silver Admission:       " << "$" << silverPrice << endl;
+        cout << "[3] Gold Admission:         " << "$" << goldPrice << endl;
+        cout << "Enter number of choice: ";
+        cin  >> ticketChoice;
+        
+        if (ticketChoice == 1)
+        {
+            ticketType = "General Admission";
+            cout << endl;
+            cout << "Name of Concert: " << artist << endl;
+            cout << "Number of Tickets: " << ticketnum << endl;
+            ticketPrice = 480 * ticketnum;
+            cout << "Ticket Price: " << "$" << ticketPrice << endl;
+            cout << "Thank you for buying!" << endl;
+        }
+        if (ticketChoice == 2)
+        {
+            ticketType = "Silver Admission";
+            cout << endl;
+            cout << "Name of Concert: " << artist << endl;
+            cout << "Number of Tickets: " << ticketnum << endl;
+            ticketPrice = 895 * ticketnum;
+            cout << "Ticket Price: " << "$" << ticketPrice << endl;
+            cout << "Thank you for buying!" << endl;
+        }
+        
+        if (ticketChoice == 3)
+        {
+            ticketType = "Gold Admission";
+            cout << endl;
+            cout << "Name of Concert: " << artist << endl;
+            cout << "Number of Tickets: " << ticketnum << endl;
+            ticketPrice = 1355 * ticketnum;
+            cout << "Ticket Price: " << "$" << ticketPrice << endl;
+            cout << "Thank you for buying!" << endl;
+        }
+    }
+    else if (ticketnum == 3)
+    {
+        cout << endl;
+        cout << "Select a Ticket type:   "     << endl;
+        cout << "[1] General Admission:      " << "$" << generalPrice << endl;
+        cout << "[2] Silver Admission:       " << "$" << silverPrice << endl;
+        cout << "[3] Gold Admission:         " << "$" << goldPrice << endl;
+        cout << "Enter number of choice: ";
+        cin  >> ticketChoice;
+        
+        if (ticketChoice == 1)
+        {
+            ticketType = "General Admission";
+            cout << endl;
+            cout << "Name of Concert: " << artist << endl;
+            cout << "Number of Tickets: " << ticketnum << endl;
+            ticketPrice = 480 * ticketnum;
+            cout << "Ticket Price: " << "$" << ticketPrice << endl;
+            cout << "Thank you for buying!" << endl;
+        }
+        if (ticketChoice == 2)
+        {
+            ticketType = "Silver Admission";
+            cout << endl;
+            cout << "Name of Concert: " << artist << endl;
+            cout << "Number of Tickets: " << ticketnum << endl;
+            ticketPrice = 895 * ticketnum;
+            cout << "Ticket Price: " << "$" << ticketPrice << endl;
+            cout << "Thank you for buying!" << endl;
+        }
+        
+        if (ticketChoice == 3)
+        {
+            ticketType = "Gold Admission";
+            cout << endl;
+            cout << "Name of Concert: " << artist << endl;
+            cout << "Number of Tickets: " << ticketnum << endl;
+            ticketPrice = 1355 * ticketnum;
+            cout << "Ticket Price: " << "$" << ticketPrice << endl;
+            cout << "Thank you for buying!" << endl;
+        }
+    }
+    else if (ticketnum == 4 )
+    {
+        cout << endl;
+        cout << "Select a Ticket type:   "     << endl;
+        cout << "[1] General Admission:      " << "$" << generalPrice << endl;
+        cout << "[2] Silver Admission:       " << "$" << silverPrice << endl;
+        cout << "[3] Gold Admission:         " << "$" << goldPrice << endl;
+        cout << "Enter number of choice: ";
+        cin  >> ticketChoice;
+    
+        if (ticketChoice == 1)
+        {
+            ticketType = "General Admission";
+            cout << endl;
+            cout << "Name of Concert: " << artist << endl;
+            cout << "Number of Tickets: " << ticketnum << endl;
+            ticketPrice = 480 * ticketnum;
+            cout << "Ticket Price: " << "$" << ticketPrice << endl;
+            cout << "Thank you for buying!" << endl;
+        }
+        if (ticketChoice == 2)
+        {
+            ticketType = "Silver Admission";
+            cout << endl;
+            cout << "Name of Concert: " << artist << endl;
+            cout << "Number of Tickets: " << ticketnum << endl;
+            ticketPrice = 895 * ticketnum;
+            cout << "Ticket Price: " << "$" << ticketPrice << endl;
+            cout << "Thank you for buying!" << endl;
+        }
+        
+        if (ticketChoice == 3)
+        {
+            ticketType = "Gold Admission";
+            cout << endl;
+            cout << "Name of Concert: " << artist << endl;
+            cout << "Number of Tickets: " << ticketnum << endl;
+            ticketPrice = 1355 * ticketnum;
+            cout << "Ticket Price: " << "$" << ticketPrice << endl;
+            cout << "Thank you for buying!" << endl;
+        }
+    }
+    else if (ticketnum == 5 )
+    {
+        cout << endl;
+        cout << "Select a Ticket type:   "     << endl;
+        cout << "[1] General Admission:      " << "$" << generalPrice << endl;
+        cout << "[2] Silver Admission:       " << "$" << silverPrice << endl;
+        cout << "[3] Gold Admission:         " << "$" << goldPrice << endl;
+        cout << "Enter number of choice: ";
+        cin  >> ticketChoice;
+        
+        if (ticketChoice == 1)
+        {
+            ticketType = "General Admission";
+            cout << endl;
+            cout << "Name of Concert: " << artist << endl;
+            cout << "Number of Tickets: " << ticketnum << endl;
+            ticketPrice = 480 * ticketnum;
+            cout << "Ticket Price: " << "$" << ticketPrice << endl;
+            cout << "Thank you for buying!" << endl;
+        }
+        if (ticketChoice == 2)
+        {
+            ticketType = "Silver Admission";
+            cout << endl;
+            cout << "Name of Concert: " << artist << endl;
+            cout << "Number of Tickets: " << ticketnum << endl;
+            ticketPrice = 895 * ticketnum;
+            cout << "Ticket Price: " << "$" << ticketPrice << endl;
+            cout << "Thank you for buying!" << endl;
+        }
+        
+        if (ticketChoice == 3)
+        {
+            ticketType = "Gold Admission";
+            cout << endl;
+            cout << "Name of Concert: " << artist << endl;
+            cout << "Number of Tickets: " << ticketnum << endl;
+            ticketPrice = 1355 * ticketnum;
+            cout << "Ticket Price: " << "$" << ticketPrice << endl;
+            cout << "Thank you for buying!" << endl;
+        }
+}
+else
+{
+    cout << "Invalid Number. Please Input Again. " << endl;
+}
+    
+    return 0;
+}
