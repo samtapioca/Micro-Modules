@@ -1,0 +1,5 @@
+productPrice = int(input("Enter product price: "))
+
+result = productPrice - (productPrice * 0.15)
+
+print("The discount price of ", productPrice, "is" ,result)
