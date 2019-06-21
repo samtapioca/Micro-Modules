@@ -1,0 +1,78 @@
+#include <iostream>
+using namespace std;
+
+int num1, num2,result, numChoice;
+
+int addition(int num1, int num2) 
+{
+    int sum;
+    sum = num1 + num2;
+    return sum;
+}
+
+int subtraction(int num1, int num2) 
+{
+    int difference;
+    difference = num1 - num2;
+    return difference;
+}
+
+int multiplication(int num1, int num2) 
+{
+    int product;
+    product = num1 * num2;
+    return product;
+}
+
+int division(int num1, int num2) 
+{
+    int quotient;
+    quotient = num1 / num2;
+    return quotient;
+}
+
+int main()
+{
+   
+    cout << "Choose an operation: " << endl;
+    cout << "(1) Addition" << endl;
+    cout << "(2) Subtraction" << endl;
+    cout << "(3) Multiplication" << endl;
+    cout << "(4) Division" << endl;
+    cout << "Enter number of choice: ";
+    cin >> numChoice;
+
+    if (numChoice <= 4) {
+    cout << "Enter first number: ";
+    cin >> num1;
+    cout << "Enter second number: ";
+    cin >> num2;
+    }
+
+
+    if (numChoice == 1) {
+      
+      result = addition(num1, num2);
+      cout << num1 << " + " << num2 << " = " << result;
+    }
+
+    else if (numChoice == 2) {
+      result = subtraction(num1, num2);
+      cout << num1 << " - " << num2 << " = " << result;
+    }
+
+    else if (numChoice == 3) {
+      result = multiplication(num1, num2);
+      cout << num1 << " * " << num2 << " = " << result;
+    }
+
+    else if (numChoice == 4) {
+      result = division(num1, num2);
+      cout << num1 << " / " << num2 << " = " << result;
+    }
+    else {
+      cout << "Invalid Choice. Please try again.";
+    }
+
+    return 0;
+}
