@@ -4,16 +4,15 @@ class Main {
 
  public static void main( String args[]) {
     try {
-    FileWriter fw = new FileWriter("Hello.txt");
+    FileWriter fw = new FileWriter("Chapter10.txt");
     PrintWriter pw = new PrintWriter(fw);
 
-    pw.println("Hello, Text File!");
+    pw.println("Hello, Chapter 10!");
 
     pw.close();
     }
     catch(IOException e) {
     System.out.print("File not found!");
-
     } 
   }
 }
