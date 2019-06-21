@@ -1,0 +1,52 @@
+#include <iostream>
+using namespace std;
+
+//Example of Inheritance
+class Character
+{
+public:
+    string jobClass, power;
+    
+    Character(): jobClass("unemployed"), power() { }
+    void display()
+    {
+        cout << "My class is: " << jobClass << endl;
+        cout << "My power is: " << power << endl;
+        damage();
+        heal();
+    }
+    void damage() { cout << "I can damage enemies." << endl; }
+    void heal() { cout << "I can heal my team." << endl; }
+};
+
+// Blaster class is taken from Character class.
+class Blaster : public Character
+{
+public:
+    void throwFire() { cout << "I can throw fireballs at enemies!" << endl << endl; }
+};
+
+// Speedster class is taken from Character class.
+class Speedster : public Character
+{
+public:
+    void runFast() { cout << "I can run really fast!" << endl << endl; }
+};
+
+int main()
+{
+    Blaster blaster;
+    blaster.jobClass = "Blaster";
+    blaster.power = "Fire";
+    blaster.display();
+    blaster.throwFire();
+    
+    Speedster speedster;
+    speedster.jobClass = "Speedster";
+    speedster.power = "Speed";
+    speedster.display();
+    speedster.runFast();
+    
+    return 0;
+}
+
