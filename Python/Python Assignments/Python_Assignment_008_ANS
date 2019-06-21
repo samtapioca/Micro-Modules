@@ -1,0 +1,27 @@
+year = int(input("Enter Birth Year: "))
+if (year - 2000) % 12 == 0:
+    zSign = 'Dragon'
+elif (year - 2000) % 12 == 1:
+    zSign = 'Snake'
+elif (year - 2000) % 12 == 2:
+    zSign = 'Horse'
+elif (year - 2000) % 12 == 3:
+    zSign = 'sheep'
+elif (year - 2000) % 12 == 4:
+    zSign = 'Monkey'
+elif (year - 2000) % 12 == 5:
+    zSign = 'Rooster'
+elif (year - 2000) % 12 == 6:
+    zSign = 'Dog'
+elif (year - 2000) % 12 == 7:
+    zSign = 'Pig'
+elif (year - 2000) % 12 == 8:
+    zSign = 'Rat'
+elif (year - 2000) % 12 == 9:
+    zSign = 'Ox'
+elif (year - 2000) % 12 == 10:
+    zSign = 'Tiger'
+else:
+    zSign = 'Hare'
+
+print("Your Zodiac sign :",zSign)
