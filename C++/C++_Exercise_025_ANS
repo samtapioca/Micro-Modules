@@ -1,0 +1,39 @@
+#include <iostream>
+using namespace std; 
+
+int main() {
+
+char jobClass;
+ 
+cout << "Choose from the following classes:" << endl;
+cout << "(P) Psychic Class" << endl;
+cout << "(B) Blaster Class" << endl;
+cout << "(C) Cyborg Class"  << endl;
+cout << "(R) Rogue Class"   << endl;
+cout << "Enter Class(P/B/C/R): ";
+cin >> jobClass;
+
+  if (jobClass == 'P' or jobClass == 'p')
+  {
+    cout << "Your chosen weapon: Brains";
+  }
+
+  else if (jobClass == 'B' or jobClass == 'b')
+  {
+    cout << "Your chosen weapon: Fire Balls";
+  }
+
+  else if (jobClass == 'C' or jobClass == 'c')
+  {
+    cout << "Your chosen weapon: Guns";
+  }
+
+  else if (jobClass == 'R' or jobClass == 'r')
+  {
+    cout << "Your chosen weapon: Dagger";
+  }
+  else
+  {
+    cout << "Invalid keyword. Please try again";
+  }
+}
