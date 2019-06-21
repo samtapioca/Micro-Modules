@@ -1,0 +1,44 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    
+    int numofChoice;
+    float amtMoney, amtChange;
+    
+
+    cout << endl;
+    cout << "----Select an Item-----" << endl;
+    cout << "o=============================o" << endl;
+    cout << "| (1) Chocolate Bar - $ 10.00 |" << endl;
+    cout << "| (2) Potato Chips  - $ 17.00 |" << endl;
+    cout << "| (3) Gummy Bears   - $ 6.50  |" << endl;
+    cout << "| (4) Cup Noodles   - $ 21.30 |" << endl;
+    cout << "| (5) Peanuts       - $ 13.00 |" << endl;
+    cout << "o=============================o" << endl << endl;
+    
+    cout << "Enter Number of Choice: ";
+    cin >> numofChoice;
+
+    if (numofChoice == 1 )   
+    {
+      cout << "You chose Chocolate Bar ";
+  
+    }
+    else if (numofChoice == 2 )   
+    {
+      cout << "You chose Potato Chips ";
+    }
+    else if (numofChoice == 3)    
+    {
+      cout << "You chose Gummy Bears ";
+    }
+    else if (numofChoice == 4 )   
+    {
+      cout << "You chose Cup Noodles";
+    }
+    else if (numofChoice == 5 )   
+    {
+      cout << "You chose Peanuts";
+    }
+}
