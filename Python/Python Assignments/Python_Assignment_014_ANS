@@ -1,0 +1,4 @@
+list = ["Cloudy", "Sunny", "Windy", "Stormy", "Rainy"]
+
+if 'Sunny' in list:
+  print("Sunny is in the list! ")
