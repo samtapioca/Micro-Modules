@@ -1,0 +1,18 @@
+class Main extends Patient {
+
+      void msg(){
+	    System.out.println("I am from the Patient class");
+      }
+
+
+  public static void main(String args[]){
+	Main obj = new Main();
+
+    System.out.println("I am from the Main class");
+    obj.msg();
+  }
+}
+
+
+
+
