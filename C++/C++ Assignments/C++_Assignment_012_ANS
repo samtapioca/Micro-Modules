@@ -1,0 +1,21 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+
+int product = 1;
+int num;
+
+for (int i = 1; i <= 3; i++)
+{
+
+    cout << "Enter Number: ";
+    cin >> num;
+    product *= num;
+
+}
+
+cout << "The product of all numbers is: " << product << endl;
+
+}
