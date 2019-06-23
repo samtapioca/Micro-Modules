@@ -1,0 +1,16 @@
+class Main {
+  public static void main(String[] args) {
+
+    String food  = "Bread";
+    String metal = "Steel";
+    String swap;
+
+   swap = food;
+   food = metal;
+   metal = swap;  
+
+   
+    System.out.println("Value of food is " +  food);
+    System.out.println("Value of food is " +  metal);
+  }
+}
