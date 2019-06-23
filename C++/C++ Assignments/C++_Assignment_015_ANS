@@ -1,0 +1,44 @@
+#include <iostream>
+using namespace std; 
+
+  double celsius, fahrenheight, result;
+  char choice;
+
+
+  int convertoFahrenheight() {
+        cout << "Enter temperature in celsius: "; 
+        cin >> celsius;
+
+        fahrenheight =  celsius * 9 / 5 + 32;
+
+        cout << "Temperature in Fahrenheight: " <<  fahrenheight << "°F" << endl;
+
+        return celsius;
+  }
+
+  int convertoCelsius() {
+        cout << "Enter temperature in fahrenheight: "; 
+        cin >> fahrenheight;
+
+        fahrenheight = (fahrenheight - 32) * 5/9;
+
+        cout << "Temperature in Celsius: " <<  fahrenheight << "°C" << endl;
+
+        return fahrenheight;
+  }
+
+  int main() {
+
+    cout << "(a) Convert Celsius to Fahrenheight" << endl;
+    cout << "(b) Convert Fahrenheight to Celsius" << endl;
+    cout << "Enter option of choice: ";
+    cin >> choice;
+
+    if (choice == 'a') {
+      convertoFahrenheight();
+    } 
+    else if (choice == 'b') {
+      convertoCelsius();
+    }
+
+  }
