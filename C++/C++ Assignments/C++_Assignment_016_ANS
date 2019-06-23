@@ -1,0 +1,94 @@
+#include <iostream>
+using namespace std;
+
+int num1, num2, result;
+char choice;
+
+int add(int num1, int num2) {
+
+  result = num1 + num2;
+  return result;
+}
+
+int subtract(int num1, int num2) {
+
+  result = num1 - num2;
+  return result;
+}
+
+int multiply(int num1, int num2) {
+
+  result = num1 * num2;
+  return result;
+}
+
+int divide(int num1, int num2) {
+
+  result = num1 / num2;
+  return result;
+}
+
+int main() {
+
+  cout << "Enter first number: ";
+  cin >> num1;
+  cout << "Enter second number: ";
+  cin >> num2;
+
+  cout << "Choose from the following: " << endl;
+  cout << "a. Addition" << endl;
+  cout << "b. Subtraction" << endl;
+  cout << "c. Multiplication" << endl;
+  cout << "d. Division" << endl;
+  cout << "Enter your choice: ";
+  cin >> choice;
+
+/* Switch
+  switch(choice) {
+    case 'a':
+       
+      result = add(num1, num2);
+      cout << num1 << " + " << num2 << " = " << result << endl;
+      break;
+    case 'b':
+      result = subtract(num1, num2);
+      cout << num1 << " - " << num2 << " = " << result << endl;  
+      break;
+    case 'c':
+      result = multiply(num1, num2);
+      cout << num1 << " * " << num2 << " = " << result << endl;
+      break;
+    case 'd':
+      result = divide(num1, num2);
+      cout << num1 << " / " << num2 << " = " << result << endl;
+      break;
+    default:
+        cout << "Invalid Letter!" << endl;
+      break;
+
+  }
+    return 0;
+
+    */
+
+  if (choice == 'a') {
+      result = add(num1, num2);
+      cout << num1 << " + " << num2 << " = " << result << endl;
+  }
+  else if (choice == 'b') {
+       result = subtract(num1, num2);
+      cout << num1 << " - " << num2 << " = " << result << endl;  
+  }
+  else if (choice == 'c') {
+       result = multiply(num1, num2);
+      cout << num1 << " * " << num2 << " = " << result << endl;
+  }
+  else if (choice == 'd') {
+             result = divide(num1, num2);
+      cout << num1 << " / " << num2 << " = " << result << endl;  
+  }
+  else {
+      cout << "Invalid Letter!" << endl;
+  }
+  return 0;
+}
