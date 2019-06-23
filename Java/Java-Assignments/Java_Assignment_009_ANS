@@ -1,0 +1,51 @@
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        String answer = " ";
+
+        System.out.println("Welcome to Zork");
+        System.out.println("West of House");
+        System.out.println("This is an open field west of a white house, with a boarded front door.");
+        System.out.println("There is a small mailbox here.");
+        System.out.println("A rubber mat saying 'Welcome to Zork!' lies by the door.");
+        System.out.print("> ");
+        answer = in.nextLine();  
+        
+        if (answer.equals("open mailbox") || answer.equals("OPEN MAILBOX")) {
+
+          System.out.println("You opened the mailbox, revealing a small leaflet.");
+          System.out.print("> ");
+          answer = in.nextLine();
+
+          if (answer.equals("open mailbox") || answer.equals("OPEN MAILBOX")) {
+            System.out.println("The mailbox is already open.");
+            }
+        }
+        
+        else if (answer.equals("close mailbox") || answer.equals("WALK AWAY")) {
+
+          System.out.println("You close the mailbox.");
+          System.out.print("> ");
+          answer = in.nextLine();
+
+          if (answer.equals("close mailbox") || answer.equals("CLOSE MAILBOX")) {
+            System.out.println("The mailbox is already closed.");
+            }
+
+        }
+        
+        else if (answer.equals("walk away") || answer.equals("WALK AWAY")) {
+
+          System.out.println("You can't see any such thing.");
+
+        }
+        else {
+
+          System.out.println("That's not a verb I recognise.");
+
+        }
+    }
+}
