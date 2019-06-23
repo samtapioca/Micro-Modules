@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+
+  double height;
+
+  cout << "Enter Height: ";
+  cin >> height;
+
+  cout << "Your height is " << height << "cm" << endl;
+}
