@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+class Main {
+
+
+   public static void Uppercase(String msg) {
+      System.out.println(msg.toUpperCase());
+
+   }
+  public static void main(String[] args) {
+      String msg = " ";
+      Scanner input = new Scanner(System.in);
+    
+  
+    System.out.println("Enter a word: ");
+    msg = input.nextLine();
+    Uppercase(msg);
+  }
+}
