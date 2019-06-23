@@ -1,0 +1,38 @@
+//Main.java
+
+class Main {
+    public static void main(String[] args) {
+        Dog tricks = new Dog(); 
+      
+        tricks.sit();
+        tricks.rollOver();
+        tricks.stay();
+        tricks.speak();
+    }
+}
+
+
+//Dog.java
+
+abstract class DogTricks {
+  
+    public void sit() {
+        System.out.println("Dog Trick #1: Sit");
+    }
+
+    public void rollOver() {
+        System.out.println("Dog Trick #2: Roll Over");
+    }
+
+    public void stay() {
+        System.out.println("Dog Trick #3: Stay");
+    }
+
+    public void speak() {
+        System.out.println("Dog Trick #4: Speak");
+    }
+}
+
+class Dog extends DogTricks {
+  
+}
