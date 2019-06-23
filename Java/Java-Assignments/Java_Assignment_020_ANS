@@ -1,0 +1,60 @@
+//Occupation.java
+
+class Occupation {
+    public void jobDescription() {
+        System.out.println("What is your job?\n");
+    }
+}
+
+class Teacher extends Occupation {
+
+    @Override
+    public void jobDescription() {
+        System.out.println("Teacher: I create lesson plans and teach those plans to the entire class.");
+    }
+}
+
+class Programmer extends Occupation {
+
+    @Override
+    public void jobDescription() {
+        System.out.println("Programmer: I Write programs in a variety of computer languages.");
+    }
+}
+
+
+class Chef extends Occupation {
+
+    @Override
+    public void jobDescription() {
+        System.out.println("Chef: I ensure the food quality and taste is of the highest standard.");
+    }
+}
+
+class Cashier extends Occupation {
+
+    @Override
+    public void jobDescription() {
+        System.out.println("Cashier: I welcome customers, answer their questions, help them locate items, and provide advice or recommendations.");
+    }
+}
+
+
+//Main.java
+
+public class Main {
+
+    public static void main(String[] args) {
+        Occupation jobDesc = new Occupation();  
+        Occupation tchr = new Teacher(); 
+        Occupation prgmr = new Programmer(); 
+        Occupation chf = new Chef();  
+        Occupation cshr = new Cashier();  
+
+        jobDesc.jobDescription();
+        tchr.jobDescription();
+        prgmr.jobDescription();
+        chf.jobDescription();
+        cshr.jobDescription();
+    }
+}
