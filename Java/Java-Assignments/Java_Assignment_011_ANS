@@ -1,0 +1,9 @@
+class Main {
+  public static void main(String[] args) {
+
+    String str1 = "Student Report";
+    String str2  = "Teacher Report";
+    System.out.println(str1);
+    System.out.println(str2);
+  }
+}
