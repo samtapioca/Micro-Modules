@@ -1,0 +1,50 @@
+import java.util.Scanner;
+
+class Main {
+   public static void ConvertoSpanish(String color) {
+
+     
+    if (color.equals("Orange")) {
+       System.out.println("Anaranjado");
+    }
+    else if (color.equals("Yellow")) {
+      System.out.println("Amarillo");
+    }
+    else if (color.equals("Blue")) {
+      System.out.println("Azul");
+    }
+    else if (color.equals("Red")) {
+      System.out.println("Rojo");
+    }
+    else if (color.equals("Green")) {
+      System.out.println("Verde");
+    }
+    else if (color.equals("Black")) {
+      System.out.println("Negro");
+    }
+    else if (color.equals("Brown")) {
+      System.out.println("Marrón");
+    }
+    else if (color.equals("Pink")) {
+      System.out.println("Rosado");
+    }
+    else if (color.equals("Purple")) {
+      System.out.println("Morado");
+    }
+    else if (color.equals("White")) {
+      System.out.println("Blanco");
+    }
+    
+    
+
+   }
+  public static void main(String[] args) {
+      String color = " ";
+      Scanner input = new Scanner(System.in);
+    
+  
+    System.out.println("Enter a color: ");
+    color = input.nextLine();
+    ConvertoSpanish(color);
+  }
+}
