@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+
+  double height;
+
+  cout << "Enter Height: ";
+  cin >> height;
+
+  height = height * 0.0328084;
+
+  cout << "Your height in feet is " << height << "cm" << endl;
+}
