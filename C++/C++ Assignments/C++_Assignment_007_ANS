@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+
+  char letter = 'S';
+  string animal = "dog";
+  int num = 23;
+  double decimal = 45.3;
+
+  cout << letter << endl;
+  cout << animal << endl;
+  cout << num << endl;
+  cout << decimal << endl;
+}
