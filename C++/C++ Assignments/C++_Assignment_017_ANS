@@ -1,0 +1,47 @@
+#include <iostream>
+using namespace std; 
+
+  double usd, euro;
+  char choice;
+
+
+  int covnertoEuro() {
+        cout << "Enter money in USD: "; 
+        cin >> usd;
+
+        euro =  usd * 0.88;
+
+        cout << usd << " US dollars equals to " << euro << endl;
+
+        return usd;
+  }
+
+  int covnertoUsd() {
+        cout << "Enter money in EURO: "; 
+        cin >> euro;
+
+        usd =  euro * 1.14;
+
+        cout << euro << " EURO dollars equals to " << usd << endl;
+
+        return euro;
+  }
+
+  int main() {
+
+    cout << "(a) Convert USD to EURO" << endl;
+    cout << "(b) Convert EURO to USD" << endl;
+    cout << "Enter your choice: ";
+    cin >> choice;
+
+    if (choice == 'a') {
+      covnertoEuro();
+    } 
+    else if (choice == 'b') {
+      covnertoUsd();
+    }
+    else 
+     cout << "Invalid Letter!"<< endl;
+
+  }
+
