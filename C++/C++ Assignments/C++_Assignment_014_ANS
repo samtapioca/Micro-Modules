@@ -1,0 +1,13 @@
+#include<iostream>
+using namespace std;
+
+int main(){
+
+    int num = 5;
+
+    for(int x=1; x <= 14; x++) { 
+    cout<< num*x <<endl;
+
+  }
+    return 0;
+}
