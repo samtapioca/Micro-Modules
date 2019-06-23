@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+
+  string pwd;
+
+  cout << "Enter Password: ";
+  cin >> pwd;
+
+  if (pwd == "Engineering") {
+    cout << "ACCESS GRANTED!";
+  }
+  else {
+    cout << "ACCESS DENIED!";
+  }
+
+  return 0;
+}
