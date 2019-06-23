@@ -1,0 +1,24 @@
+#include <iostream>
+#include <string>
+ 
+int main() {
+ 
+    std::string name;
+    std::string occupation;
+    int mobileno;
+ 
+    std::cout << "Enter Full Name: ";
+     std::getline(std::cin,name);
+ 
+    std::cout << "Enter Occupation: ";
+     std::getline(std::cin,occupation);
+
+    std::cout << "Enter Mobile No.: ";
+    std::cin >> mobileno;
+ 
+    std::cout << "\nFull Name: " << name << std::endl;
+    std::cout << "Occupation: " << occupation << std::endl;
+    std::cout << "Mobile No.: " << mobileno << std::endl;
+ 
+    return 0;
+}
