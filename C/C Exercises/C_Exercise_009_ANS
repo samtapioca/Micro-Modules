@@ -1,0 +1,19 @@
+//Area of a Triangle
+
+#include <stdio.h>
+
+int main(void) {
+ int m, n, area;
+
+  printf("Enter base: ");
+  scanf("%d", &m);
+
+  printf("Enter height: ");
+  scanf("%d", &n);
+
+  area = m * n /2;
+  printf("Area = %d\n", area);
+
+
+  return 0;
+}
