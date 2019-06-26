@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main(void) {
+    int x, y;
+    scanf("%d%d", &x, &y);
+
+    // start your solution below
+    #include <stdio.h>
+    while( x <= y ) {        // loop condition
+    printf("%d\n",x);
+    x = x + 1;             // update of the loop condition
+  }
+  return 0;
+}
