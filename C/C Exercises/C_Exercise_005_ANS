@@ -1,0 +1,10 @@
+#include <stdio.h>
+main() {
+	int x, y, sum, product;
+	scanf("%d", &x);                 //taking input for value of x
+	scanf("%d", &y);                 //taking input for value of y
+	sum = (x + y) + (x * y);
+	product = (x + y) * (x * y);
+	printf("sum = %d\n", sum);
+	printf("product = %d\n", product);
+}
