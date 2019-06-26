@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <math.h>
+
+int main(void) {
+    int x;
+    int ans;
+    scanf("%d", &x);
+
+    // Write your solution below
+    
+     ans = floor(log10(x) + 1); 
+
+    printf("%d\n", ans);
+
+    return 0;
+}
