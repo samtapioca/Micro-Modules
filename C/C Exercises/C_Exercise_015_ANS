@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main(void) {
+  int x, y;    // the inputs from users
+  int diff;    // the calculated difference
+  scanf("%d%d", &x, &y);
+
+  // Write your solution below.
+  if (x && y > 0) {
+    diff = x - y;
+  }
+  // It is expected that the difference
+  // is stored in the diff variable
+
+  printf("%d\n", diff);
+  return 0;
+}
