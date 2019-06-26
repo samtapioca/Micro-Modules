@@ -1,0 +1,27 @@
+#include <stdio.h>
+
+int isPrime(int x){
+    int i,prime = 1;
+    if(x>1)
+    {
+      for(i = 2;i<x;i++)
+      {
+        if(x%i==0)
+        {
+          prime = 0;
+          break;
+        }
+      }
+    }
+    else{
+      prime = 0;
+    }
+    return prime;
+  }
+
+int main()
+{
+  printf("%d\n",isPrime(5));
+  printf("%d\n",isPrime(10));
+  return 0;
+}
