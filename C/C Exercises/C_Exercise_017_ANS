@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main(void) {
+  int x, y;
+  scanf("%d", &x);
+  scanf("%d", &y);
+
+  // write your solution below
+  if (x > y) {
+    printf("bigger");
+  }
+  else if (x < y) {
+    printf("smaller");
+  }
+  else if (x == y) {
+    printf("same");
+  }
+
+  return 0;
+}
