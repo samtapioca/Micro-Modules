@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int main(void) {
+    int X;
+    scanf("%d", &X);
+    // put your answer below
+    printf("%d", X % 5 && X % 3 == 0);
+
+    return 0;
+}
