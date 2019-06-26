@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main(void) {
+  int input;
+  scanf("%d", &input);
+  if(input >= 0) {
+    printf("YEAH\n");
+    printf("YEAH\n");
+  }
+  else {
+    printf("OH\n");
+  return 0;
+  }
+}
