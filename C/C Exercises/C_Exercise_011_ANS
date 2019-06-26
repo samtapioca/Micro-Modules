@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include <math.h>
+
+int main(){
+    double pi = 0;
+    // Using "atan", calculate the value of pi in the space below
+    pi = atan(3.14/4);
+    // Change the following print statement in order to
+    // print the result rounded 10 decimal spaces
+    printf("%.10f\n", pi);
+
+    return 0;
+}
