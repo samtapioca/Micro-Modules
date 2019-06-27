@@ -29,6 +29,6 @@
  
         for (i = 0; i < 5; i++) 
         {
-           printf("%s\n", name[i]);
+           printf("%s\t\t%s\n", tname[i], name[i]);
         }
     }
