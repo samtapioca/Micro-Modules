@@ -1,0 +1,8 @@
+#include <stdio.h>
+int main() {
+  int c = 0;
+    while (getchar() != EOF)
+        ++c;
+      printf("\n%d", c);
+    return 0;
+}
