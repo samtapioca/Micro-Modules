@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int a = 15, b = 3, sum;
+
+int main(void) {
+  sum = a + b;
+  printf("%d",sum);
+
+  return 0;
+}
