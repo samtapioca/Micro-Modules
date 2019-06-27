@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+//Create a global variable here
+int a = 5;
+
+void print(){
+    printf("%d\n",a);
+}
+
+int main()
+{
+    printf("%d\n",a);
+    print();
+}
