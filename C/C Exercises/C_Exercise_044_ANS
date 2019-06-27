@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+void print_array(int array[3]) {
+    static int i = 0;
+    for(i = 0; i < 4; i++) {
+        printf("%d ", array[i]);
+    }
+}
+
+int main(void) {
+    int a[5] = {1, 5, 3, 6};
+    int b[4] = {0};
+    print_array(a);
+    print_array(b);
+    return 0;
+}
