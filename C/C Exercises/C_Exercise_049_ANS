@@ -1,0 +1,24 @@
+/*Create a swap function that will swap variables a and b:
+
+Before: Molly Polly
+After:  Polly Molly
+
+*/
+
+#include <stdio.h> 
+
+void swap(char *p, char *q) {
+  char tmp = *p;
+  *p = *q;
+  *q = tmp;
+}
+
+int main(void) {
+  char a[10] = "Molly";
+  char b[10] = "Polly";
+
+  printf("Before: %s %s\n", a, b);  
+  swap(a, b);
+  printf("After:  %s %s\n", a, b);  
+  return 0;
+}
