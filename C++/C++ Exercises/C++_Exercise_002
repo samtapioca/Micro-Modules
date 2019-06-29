@@ -1,0 +1,4 @@
+To terminate the main() function, add a return statement to the program:
+
+
+return 0;
