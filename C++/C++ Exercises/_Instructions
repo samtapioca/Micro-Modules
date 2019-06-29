@@ -1,0 +1,1124 @@
+
+• 001
+
+For the program to run, we need to add a library and a namespace.
+
+Complete the program by adding the following:
+
+
+#include <iostream>
+
+using namespace std; 
+
+• 002
+
+To terminate the main() function, add a return statement to the program:
+
+
+return 0;
+
+• 003
+
+Instructions:
+
+Semicolons are important in your program, other the program will not run and cause an error.
+To remove the error, place a semicolon after the the last double quote:
+
+cout << "Hello, World!";
+
+
+• 004
+Instructions:
+
+Write a C++ program that prints (displays) your first name.
+Example:
+
+cout << "John";
+
+• 005
+Instructions: 
+
+Write a C++ program that prints out "I am learning C++" into a new line. 
+Add the endl at the end of the output:
+
+cout << "Hello, World!" << endl;
+
+• 006
+
+Instructions: 
+
+Write a C++ program that prints out your name and favourite season into a new line.
+Example:
+
+cout << "John" << endl;
+cout << "Summer";
+
+• 007
+Instructions: 
+
+Comment out the line that prints out "World".
+Add a // to the front of the line. Like this:
+
+
+// cout << "World";
+
+Note: You should only be able to see "Hello" after you run the program. That's how it will be displayed if you have done it right.
+
+• 008
+Instructions:
+
+Multiline Comments are used for long text descriptions about the program.
+
+Add the /* to the front and */ to the back to comment out the description. 
+
+Example:
+/*
+This program displays the message "Good Morning!"
+It is written by Sir John
+This is a beginner level program
+*/
+
+• 009
+Instructions: 
+
+Comments helps others, such as programmers, to understand the code you are building. 
+
+Take a look at the code. What description would you give to this code?
+
+Reminder: 
+
+// This is a single line comment
+
+/*
+This is a multiline comment
+*/
+
+• 010
+Instructions:
+
+Write a program that has a hold the value of 23 as well as prints out the value of a.
+
+
+Reminder: 
+a = 23;
+
+• 011
+
+Instructions: 
+
+Let's have x = 12 and y = 6.
+
+Write the following values into the program and have it print out the values of the following expressions:
+
+x / 4
+
+x + y * 2
+
+(x * y) - 2
+
+x % y
+
+x / 4.0
+
+(x * 3) * y
+
+Example: 
+
+int x = 4, y = 5, result; 
+
+result = x + y;
+cout << "4 + 5 = " << result << endl; 
+
+result = x * y;
+cout << "4 * 5 = " << result << endl; 
+
+• 012
+
+Instructions:
+Write a program that takes as input an integer hrs which is the number of hours, and converts it into minutes (mins) and seconds (sec). 
+
+Sample Output:
+Enter number of hours: 8
+
+8 hours = 480 minutes = 28800 seconds 
+
+• 013
+We can use data types to determinate the value of our data in our C++ program.
+Add a data type declaration so that the program will print out the value of 3.
+
+Reminder: 
+
+int a = 3;
+
+• 014
+Which data type would be most appropriate to use for the following data values? 
+
+Eye colour
+Minutes remaining in class
+A single letter of the alphabet
+Number of seats in a movie theatre
+Area of a triangle
+Number of Facebook friends
+
+Replace the comments with your answer in the space provided in the output statement.
+
+Example: 
+
+cout << "Name of your dog" << endl;
+cout << "Answer: " << d << endl;
+
+• 015
+
+Write a program that prints out the values of firstName, walkingHours, and carMinutes in the following text.
+
+Use your name for value of firstName.
+
+In the following sample output:
+
+value of firstName is "Ryan" 
+value of walkingHours is 3.6
+value of carMinutes is 50
+
+Sample Output
+
+My name is Ryan. 
+It takes me 3.6 hours to get to school by foot. 
+It takes me 50 minutes to get to school by car.
+
+• 016
+Declare the following data types into your program and have the program print it out: 
+
+23
+5743.45
+dog
+
+You can name it any variable of your choice.
+
+Reminder: 
+
+int a; 
+cout << a ;
+
+• 017
+Instructions:
+
+Write the following program:
+
+
+Declare the following variables: num1, num2, num3, sum and average of data type int.
+Store the value 234 into num1, 43 in num2, and -18 in num3.
+Stores the average of num1, num2, and num3 into average.
+Print out the values of num1, num2, num3 and average. 
+
+• 018
+Instructions:
+
+Write a program that outputs the total number of employees.
+Declare the variable employees of int data type inside the function.
+You can place any value.
+
+Example:
+
+int num = 10; 
+
+• 019
+Instructions:
+Write a program that outputs the total number of employees.
+
+Declare the variable employees of int data type outside the function.
+You can place any value.
+
+Example: 
+
+int num = 10; 
+
+• 020
+Instructions: 
+
+Write a C++ Program that accepts the user's name (as text) and age (as number) as input using the cin function. 
+
+The program prints out a sentence containing the user's name and age.
+Reminder: 
+
+cout << "Enter a colour: " << endl;
+cin >> colour; 
+
+• 021
+Instructions:
+
+Write a C++ Program that accepts two numbers from the user and prints out the sum of the entered numbers.
+
+Sample Output
+
+First Number: 10
+Second Number: 5
+
+Sum: 15
+
+Reminder: 
+
+cout << "Enter a colour: << endl;
+cin >> colour;
+
+• 022
+Consider the following:
+
+
+A juice jug can hold 3.75 litre of juice. Your uncle ships jugs of juice to a local store every weekend. The cost of producing one litre of juice is $3.4 and the profit of each jug of juice is 2.45.
+
+
+Write a program that:
+
+Accepts the user to enter the total amount of juice produced on the weekend.
+Prints out the number of juice jugs needed to hold the juice. (round up value)
+Prints out the cost of producing juice
+Prints out the profit for producing juice
+
+
+
+Expected output:
+
+Enter total amount of juice in litres: 3.75
+
+Number of juice jugs needed to hold the juice: 15
+Cost of producing juice: 12.75
+Profit for producing juice: 9.1875
+
+
+
+• 023
+Instructions:
+
+Write a program that input user's age and check if they are eligible to get their driver's license. A person is eligible for a driver's license if he is 18 or above. 
+
+Sample Output 
+
+Enter your age: 18
+You are eligible for a driver's license. 
+
+Reminder: 
+
+if (x <= 5)
+{
+cout << x " is greater than 5";
+}
+
+• 024
+
+Instructions:
+
+Write a program that takes the input of the age of 3 of Sam, Jam and Pam. 
+The program prints out who is the oldest between the three of them.
+
+Sample Output
+
+Enter age of Sam: 12
+Enter age of Jam: 18
+Enter age of Pam: 25
+
+Pam is the oldest!
+
+• 025
+Instructions: 
+
+Write a program that lets a user choose from the following classes:
+
+Psychic Class (Weapon: Brains)
+Blaster Class (Weapon: Fire balls)
+Cyborg Class (Weapon: Guns)
+Rogue Class (Weapon: Dagger)
+
+The User inputs the first letter(uppercase or lowercase) of the class to choose from.
+Depending on chosen job, display the weapon of the character.
+You can choose between using switch statement of if-else statements.
+
+
+Sample Output
+
+Choose from the following classes:
+
+(P) Pyschic Class
+(B) Blaster Class
+(C) Cyborg Class
+(R) Rogue Class
+
+
+Enter Class (P/B/C/R): R
+Your chosen weapon: Dagger
+
+• 026
+Instructions: 
+
+
+Students with an attendance less than 60% will have to attend summer class.
+
+Write a program that asks the user for the number of classes, and the number of classes the student has attended. If the student has attendance less than 60% of the class, print out a statement stating the student must attend summer class. Otherwise, state the student doesn't need to.
+
+Output: 
+Example #1:
+
+Enter number of classes: 10 
+Enter number of classes student attended: 4 
+Student's Attendance: 40 % 
+Student must attend summer class.
+
+Example #2:
+
+Enter number of classes: 10 
+Enter number of classes student attended: 9 
+Student's Attendance: 90 % 
+Student does not need to attend summer class.
+
+• 027
+Instructions:
+
+Write a simple ticketing program that does the following:
+
+Prints out the name of concert, location and number of tickets available. (Assume that there are only 5 tickets available).
+
+Ask the user to enter number of tickets they want to purchase. If the user enters a number greater than 5, display a message stating their input is invalid. 
+
+Ask the user the type of ticket they want to buy. The user can choose to buy General Admission ($480), Silver Admission ($895) , and Gold Admission ($1355). 
+
+After they bought a ticket, print out the summary of purchase (Name of Concert, Number of Tickets bought, Ticket Type, Total Price of Tickets.)
+
+You can write any concert name and location of your choice.
+
+Here is a sample output:
+https://027-Simple-Ticketing-System.micromodules.repl.run
+
+• 028
+Instructions:
+
+Write a program that prints your name 50 times using a loop.
+
+Each output should begin on a new line.
+
+Sample Output
+
+John Doe
+John Doe
+John Doe
+.
+.
+.
+.
+• 029
+Instructions:
+
+Write a program that will display odd numbers from 1 to 11 using for loop.
+
+Reminder: 
+
+for ( i =; i <=; i++)
+{
+cout << i << endl;
+}
+
+• 030
+Instructions:
+
+Write a program that will print the following output:
+
+1******
+12*****
+123****
+1234***
+12345**
+123456*
+1234567
+
+• 031
+Let's create a Simple Vending Program. 
+
+At the end of this exercise, you will have a program that can select items, enter amount of money, display item of choice and the amount of change back. 
+
+Your program will also be able to tell the user their money is not enough, and whether they want to buy another item again. 
+
+This project covers the everything you have learned so far including:
+• Variables
+• Assignments
+• Conditional Statements
+• Loops
+
+Let's get started! 
+
+
+First, declare the following variables into the program:
+
+int numofChoice;
+float amtMoney, amtChange;
+
+Then, create a screen for the user to decide what to buy:
+
+cout << "Select an Item: << endl;
+cout << "(1) Chocolate Bar - $ 10.00" << endl;
+cout << "(2) Potato Chips - $ 17.00 " << endl;
+cout << "(3) Gummy Bears - $ 6.50 " << endl;
+cout << "(4) Cup Noodles - $ 21.30 " << endl;
+cout << "(5) Peanuts - $ 13.00 " << endl;
+
+Afterwards, create one more output statement as well as an input to take the user's input of choice.
+
+cout << "Enter Number of Choice: ";
+cin >> numofChoice;
+When you run your program, you should have something like this:
+
+https://Vending-Machine-Part-1.micromodules.repl.run
+
+• 032
+By now your project should be something like this:
+
+https://Vending-Machine-Part-1.micromodules.repl.run
+
+Make sure you've completed Part 1 before moving on to this part.
+
+Now that our program can display the items of the vending machine, let's have it return the item we are choosing.
+
+For this we'll use conditional statements. 
+
+You can choose to use switch statements or if statements, but I will show you the if statements process. 
+
+Add if statements to have the program display the item we are choosing.
+
+if (numofChoice == 1 ) { cout << "You chose Chocolate Bar "; } else if (numofChoice == 2 ) { cout << "You chose Potato Chips "; }
+.
+.
+.
+.
+
+Try to complete the rest of the choices into your program.
+Here's the complete code and output of our vending machine so far:
+
+https://repl.it/@micromodules/Vending-Machine-Part-2
+
+• 033
+By now your project should be something like this:
+https://repl.it/@micromodules/Vending-Machine-Part-2
+
+Let's have the choices display their amount as well:
+
+if (numofChoice == 1 ) 
+{
+cout << "You chose Chocolate Bar "; 
+cout << "Price: $10.00: << endl;
+}
+.
+.
+.
+
+
+If the user inputs a number not equal to numbers 1-5, we should also tell the user to input the correct number. They should not be able to buy a product if they input an invalid number.
+
+else 
+{
+cout << "Invalid Number. Enter a number from 1-5." << endl; 
+}
+
+Next step is to allow the user to enter their amount of cash. 
+We add another output statement to tell the user to enter their amount of money, and an input statement to store the value.
+
+We will use our variable amtMoney for this input statement.
+
+if (numofChoice == 1)
+{
+cout << endl;
+cout << "You chose Chocolate Bar" << endl;
+cout << "Price: $10.00 " << endl;
+cout << "Enter amount of money: ";
+cin >> amtMoney;
+}
+
+Do this for the following items as well.
+
+(Note: I added another endl to print a new line first before printing out the next line.)
+
+Here's the complete code and output of our vending machine so far:
+https://repl.it/@micromodules/Vending-Machine-Part-3
+
+• 034
+By now your project should be something like this:
+
+https://repl.it/@micromodules/Vending-Machine-Part-3
+
+
+So far in our vending machine, we are now able to:
+
+Ask the user to select an Item
+
+Display the item they chose and price of the item
+
+Ask to user to input amount of money
+
+
+What we're going to do next is:
+
+Compute the amount of change to display back to the user
+
+Display an message stating that the user didn't not input enough money 
+
+
+The amount of change(We will use amtMoney of float type from Line 7) will be computed if the user enters a number greater or equal to its original price. 
+
+
+if (numofChoice == 1)
+
+{
+
+.
+
+.
+
+.
+
+//insert if statement here
+
+if (amtMoney >= 10) 
+
+{
+
+
+
+}
+
+}
+
+
+
+The first item will be greater or equal to 10 because the first item cost $10.
+
+Do this for the following items.
+
+
+Inside our nested if statement, we'll place an assignment that will be used to compute the change, using amtChange variable we've used in Line 7.
+
+
+Let's add this inside our first nested if statement:
+
+if (amtMoney >= 10) 
+
+{
+
+amtChange = amtMoney - 10.00;
+
+
+}
+
+Do this for the following items.
+
+
+Display the following messages as well:
+
+{
+
+amtChange = amtMoney - 10.00;
+
+cout << "Amount of Money Entered: " << endl;
+
+cout << "Your change is " << amtChange << endl;
+
+}
+
+Do this for the following items.
+
+
+Now that we've finished our nested if statements, let's move on to the else statement.
+
+
+Place an else statement under the if statement that displays if the user did not input enough money:
+
+if 
+
+{
+
+.
+
+.
+
+.
+
+}
+
+else
+
+{
+
+cout << "Not enough money." << endl;
+
+}
+
+
+In the next exercise, we add the following features:
+
+
+If the user enters enters an amount less than the item's price, display a message stating that the user didn't input enough money and exit the program.
+
+After the user purchases one item, have the user to choose to buy another item or exit the program.
+
+
+
+Here's the complete code and output of our vending machine so far:
+
+https://repl.it/@micromodules/Vending-Machine-Part-4
+
+• 035
+By now your project should be something like this:
+
+https://repl.it/@micromodules/Vending-Machine-Part-4
+
+
+So far in our project, our vending machine contains the following features:
+
+
+Have the user input to select an Item
+
+Display the item they chose and price of the item
+
+Have the to user to input amount of money
+
+Compute the amount of change to display back to the user
+
+Display a message stating that the user didn't not input enough money 
+
+
+Nice job! You've done five features so far in this project.
+
+We're almost done with our simple vending machine program.
+
+
+What we're going to do next is:
+
+If the user enters enters an amount less than the item's price, display a message stating that the user didn't input enough money and exit the program.
+
+After the user purchases one item, have the user to choose to buy another item or exit the program.
+
+
+Let's work on the second feature first.
+
+
+Consider this sample output:
+
+Enter Number of Choice: 1
+
+You chose Chocolate Bar
+
+Price: $10.00 
+
+Enter amount of money: 20
+
+
+You chose Chocolate Bar
+
+Amount of Money Entered: $20
+
+Your change is $10
+
+
+Now let's give the user the option to either buy another item or exit the program.
+
+
+Let's add a statement to ask the user whether they want to buy again or not.
+
+.
+
+.
+
+.
+
+if (amtMoney >= 10)
+
+{
+
+amtChange = amtMoney - 10.00;
+
+cout << endl;
+
+cout << "You chose Chocolate Bar" << endl;
+
+cout << "Money Entered: " << amtMoney << endl;
+
+cout << "Change: " << amtChange << endl;
+
+cout << "Would you like to buy again? (Y/N);
+
+cin >> buyAgain;
+
+}
+
+To avoid any confusion, you can align your endl statements to each other to keep your code readable and organised.
+
+Do this for the following nested if statements.
+
+
+Notice I'm having the user to type yes or no (Y/N) whether they want to buy again.
+
+I also used an input statement to take the user's input using the buyAgain variable.
+
+
+Let's declare this variable in Line 8.
+
+char buyAgain = 'Y';
+
+
+Let's understand the concept:
+
+
+If the user wants to buy another time, we need to ask to select an item again. We can do that by adding another if statement, but if they keep buying and buying, we will use a lot of if statements. But we're not going to do that. Instead, we are going to use the while loop.
+
+
+Place this loop inside the main function:
+
+while (buyAgain == 'Y' || buyAgain == 'y')
+
+{
+
+.
+
+.
+
+}
+
+return 0;
+
+}
+
+Note: Using this condition will allow the user to input uppercase 'Y' OR lowercase 'y'.
+
+
+WHILE the user inputs Y, it will loop back to the beginning of the program and ask the user to select an item again.
+
+
+By now your project should look like this:
+
+
+https://Vending-Machine-Part-5-1.micromodules.repl.run
+
+
+
+When you run the program and enter enough money to buy the item and input yes to buying again, it will go back to the item menu.
+
+
+But, when you don't enter enough money. You will notice that the program will still loop back and have the user select an item. 
+
+
+Previously, we were discussing on what the program will do if the user doesn't enter enough money to buy their item.
+
+if { . . . } else { cout << "Not enough money." << endl; }
+
+
+
+We need to have the program exit when the user hasn't input enough money. To do that, we will use the break statement.
+
+
+if
+
+{ 
+
+. 
+
+. 
+
+. 
+
+} 
+
+else 
+
+{ 
+
+cout << "Not enough money." << endl; 
+
+}
+
+
+
+
+If the user didn't put enough money, we need to have the user exit the program and not be able to buy their item. So that the next person who uses the program can buy an item.
+
+
+Let's add an output to do display the following options for the user:
+
+.
+
+.
+
+.
+
+else 
+
+{ 
+
+cout << "Not enough money." << endl; 
+
+break;
+
+}
+
+This will end the program after the output statement has been executed.
+
+
+and lastly, let's add one more output statement above return 0; to ensure the user that the program has ended:
+
+
+.
+
+.
+
+.
+
+}
+
+cout << "Exiting Program..." << endl;
+
+cout << "Goodbye! " << endl;
+
+return 0;
+
+}
+
+
+
+And that's it!
+
+
+You have just completed your simple vending machine system!
+
+
+Your final simple vending machine contains the following features:
+
+
+Have the user input to select an Item
+
+Display the item they chose and price of the item
+
+Have the to user to input amount of money
+
+Compute the amount of change to display back to the user
+
+Display a message stating that the user didn't not input enough money 
+
+If the user enters enters an amount less than the item's price, display a message stating that the user didn't input enough money and exit the program.
+
+After the user purchases one item, have the user to choose to buy another item or exit the program.
+
+
+Here's the complete code and output of our simple vending machine:
+
+https://repl.it/@micromodules/Vending-Machine-Part-5
+
+• 036
+Can you add three more features to the program?
+
+
+Remember that this program already contains the following features:
+
+
+Have the user input to select an Item
+
+Display the item they chose and price of the item
+
+Have the to user to input amount of money
+
+Compute the amount of change to display back to the user
+
+Display a message stating that the user didn't not input enough money 
+
+If the user enters enters an amount less than the item's price, display a message stating that the user didn't input enough money and exit the program.
+
+After the user purchases one item, have the user to choose to buy another item or exit the program.
+
+• 037
+Functions allow our program to perform individual tasks.
+When you run the program, it will produce errors because every program always start from the main function.
+
+Have the program call function output() in the main() function:
+
+int main() 
+{
+output();
+return 0;
+}
+
+• 038
+Instructions:
+
+Write a simple calculator program that contains different functions for different operators:
+
+Addition
+Subtraction
+Multiplication
+Division
+
+Sample Output
+
+Choose an Operation:
+
+(1) Addition
+(2) Subtraction
+(3) Multiplication
+(4) Division
+
+Enter number of choice: 2
+Enter First Number: 10
+Enter Second Number: 4
+
+10 - 4 = 6
+
+Remember: 
+int addition (int num1, int num2)
+
+{
+sum = num += num2;
+return sum;
+}
+
+int main()
+
+{
+//output statements
+//conditional statement
+}
+
+Hint:
+Refer to the following Chapters:
+
+3.4 Arithmetic Operators
+5.0 Variables and Statements
+6.0 Conditional Statements
+8.0 Functions
+
+• 039
+Instructions: 
+
+Write a program that does the following functions:
+
+prints out Good Morning + user's name when user types the word "Morning"
+prints out Good Night + user's name when user types the word "Night"
+prints out Good Night + user's name when user types the word "Birthday"
+
+When the user types "Goodbye", it will print out Good bye + user's name and end the program.
+
+Hint: use the while loop to have the program loop back to the question.
+
+Here is a sample output of the program:
+https://038-functions.micromodules.repl.run/
+
+• 040
+Instructions:
+Write a program that is able to convert the following:
+
+cm to inches
+inches to cm
+feet to meters
+meters to feet
+
+Create the program using functions.
+
+• 041
+Instructions:
+Can you make the output of the program turn into Good Morning Sunshine! ?
+
+• 042
+Instructions: 
+Write a program that declares an array points and holds a maximum of 10 elements(it can be any number). Have the program display the elements.
+
+Reminder: 
+
+int array[3] = {13,24,65};
+cout << score[0];
+cout << score[1];
+cout << score[2];
+
+• 043
+Instructions:
+
+Write a program that allows you to enter up to to 10 students and get the student's information (first name, last name, age, favourite subject) and print out the results.
+
+IF the users enters a number greater than 10, the program will display an error message and end the program.
+
+Else, it will call two functions: 
+
+enterStudents (Function that lets you input student details) 
+displayStudents(Function that displays the information of n of students)
+
+Here is a sample output:
+https://043-Arrays.micromodules.repl.run
+
+• 044
+Instructions: 
+Write a program that asks the user to input a sentence using cin.get().
+The program will then print out the sentence you have entered.
+
+Sample Output
+
+Enter a sentence: A cat says meow.
+You entered: A cat says meow.
+
+• 045
+To be able to declare using std::string, we'll need to add another library to our program, called string.
+
+#include <string>
+Afterwards, write a program that asks the user for his favourite soft drink and ice cream.
+std::getLine(std::cin, faveSoftDrink);
+The program will print out the results.
+
+Sample Output
+
+What is your favourite soft drink? Sprite
+What is your favourite ice cream? Chocolate Ice Cream
+Your favourite soft drink is Sprite
+Your favourite ice cream is Chocolate Ice Cream
+
+• 046
+Write a program that prints out Hello, World! using classes. 
+
+To add a class, add the following into your program: 
+
+class HelloWorld
+{
+public:
+void display() {
+cout << "Hello World!" << endl;
+}
+};
+
+• 047
+Instructions:
+
+Create public class called Animal. 
+Create any object (Any object as long as it's an animal)
+Give three attributes to (E.g. age, kindofAnimal, name, colour and size.)
+Print out the object name followed by its attributes.
+
+• 048
+Can you have the program print out that Ryan is playing and Sandy is sleeping?
+
+• 049
+Instructions:
+
+Write a program that prints out the average of the following numbers using inheritance:
+
+45, 34, 5
+76.2, 3.4, 13.1 (Answer should be in decimals)
+65, 23.9, 7 (Answer should be in decimals)
+
+• 050
+Have the program display the following output:
+
+Write a program that displays five types of jobs and includes the following details:
+
+Job Title
+Name of Company
+Three types of duties in the job
+
+Example
+
+Job Title: Cashier
+Job Description: WellMort Limited
+My job is to count the money in the cash register
+My job is to sell items to customers
+My job is to issue receipts to customers
+
+You may use this template to guide you through this exercise:
+
+https://repl.it/@micromodules/050-Inheritance
