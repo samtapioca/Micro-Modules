@@ -1,0 +1,549 @@
+Python	
+1	"Welcome to your first Repl.it assignment!
+
+For your first assignment, write your name inside of the quotation marks.
+
+To review your code, click on the run button on top of the white container.
+
+You will be able to see your displayed output under the white container.
+
+Example
+John
+
+Once your done, submit your code by click on the green submit button on the top right corner. "
+2	"Fix the program by filling in the blanks to print ""Hello, World!""
+
+Don't forget to submit this program once you've finished."
+3	"Write a program that prints out the following in it's specified format:
+
+Old MACDONALD had a farm
+E-I-E-I-O
+And on his farm he had a cow
+E-I-E-I-O
+With a moo moo here
+And a moo moo there
+Here a moo, there a moo
+Everywhere a moo moo
+Old MacDonald had a farm
+E-I-E-I-O
+
+Hint
+Print out one print statement for one line
+print(""first line"")
+print(""second line"")"
+4	"Comments are useful to help programmer like your understand your code better.
+
+Write a simple comment for this program.
+
+#This is an example of a comment"
+5	"When you run the program, you will get an error saying that your program has a SyntaxError on line 1.
+
+To solve the error, surround the comments with a multi line strings on line 1 and line 4.
+
+
+Example:
+
+""""""
+The quick
+brown fox
+jumps over
+the lazy dog
+"""""""
+6	"Create a variable called ""language"" and assign it the value ""Python""
+ 
+Write a program that displays the variable"
+7	"Create a variable called num1, num2, num3, num4, num5 and assign it to only even numbers. (Use any even number)
+
+Write a program that will print out the variables.
+
+Output Example:
+num1 = 2
+num2 = 4
+num3 = 6
+num4 = 8
+num5 = 10"
+8	Write a program that prints out the sum of 340 + 5, using two variables: num1 and num2.
+9	"Write a program prints out what kind of numerical type the following are:
+
+300
+""dog""
+3.5
+""f""
+True
+
+We have written down one example for you on Line 1.
+
+Sample output
+sunshine
+<class 'string'>"
+10	"Write a program that rounds off 23.62395483 to only 3 decimals.
+Use x as a variable."
+11	"Instructions: 
+
+Write a program that checks the data type of var =""14.74"""
+12	"Instructions:
+
+Write a program that prints out the following string:
+
+""Daddy, George is too little to play piggy in the Middle."" said Peppa.
+""Oh, I'm sure he's big enough."" said Daddy Pig.
+""No, he isn't, Daddy. Watch!"" said Peppa."
+13	"Write a program that prints out ""Hello, World!"" by printing out the following variables:
+
+string1 = ""Hello""
+string2 = "", World!""
+
+Output:
+Hello, World!"
+14	"Instructions: Write a program that outputs True when the word ""Tarter"" is in ""Sauce"" using the in operator.
+
+Output:
+False"
+15	"Instructions: Write a program that takes two string inputs from the user and check if the two strings are the same words.
+
+Output:
+
+Enter first word: corn
+Enter second word: corn
+True"
+16	"Instructions:
+
+Write a program that asks a user to enter a username and check if the username's string has digits.
+Use user as your variable.
+
+Output:
+
+Enter username: Example123
+
+Username is all digits: True"
+17	"Instructions:
+
+The legal age to drive is 18. Write a program that takes an integer input from the user and check if the input age is greater or equal to legal age.
+
+If age is less than legal age to drive, the output will be False.
+If age is greater than or equal to legal age to drive, the output will be True.
+
+Expected Output:
+
+Enter an age: 15
+Age is greater than legal age to drive: False
+
+Enter an age: 19
+Age is greater than legal age to drive: True"
+18	"Write a program that concerts tablespoons to teaspoons:
+
+1 tablespoon = 3 teaspoons
+
+Output:
+Enter number of tablespoon = 8
+Number of teaspoons = 24 teaspoons"
+19	"Instructions:
+
+Write a program that prints out the square root of 825 using the math module.
+
+Remember to import math before calculating for the square root.
+
+Expected Output:
+Square root of 825: 28.722813232690143"
+20	"Instructions:
+
+Write a program that prints out the cosine of -97.
+
+Output:
+
+Cosine of -97: -0.9251475365964139"
+21	"Instructions:
+
+Write a program that takes the input of two numbers and prints out the greater number.
+
+Output:
+Enter first number: 4
+Enter second number: 7
+
+7 is greater than 4"
+22	"Instructions:
+
+A tea shop will give a 15% discount if the user purchased a total price greater than $500.
+
+Write a program that asks the user for total price and compute discount if total price is greater than 500.
+
+Expected Output: 
+
+Example #1
+Enter total price: 560
+The total price is: 476
+
+Example #2
+Enter total price: 246
+The total price is: 245"
+23	"Instructions:
+
+An employer will promote a junior programmer to a senior programmer if the junior programmer has worked in the company for 6 or more years. 
+
+Output:
+Enter years of service: 7
+Employee can be promoted to Senior Programmer.
+
+If the employee has less than 6 years, out then number of years he needs to get promoted:
+Enter years of service: 2
+Employee needs 4 more years of service before promotion.
+Instructions:
+
+An employer will promote a junior programmer to a senior programmer if the junior programmer has worked in the company for 6 or more years. 
+
+Output:
+Enter years of service: 7
+Employee can be promoted to Senior Programmer.
+
+If the employee has less than 6 years, out then number of years he needs to get promoted:
+Enter years of service: 2
+Employee needs 4 more years of service before promotion.
+Instructions:
+
+An employer will promote a junior programmer to a senior programmer if the junior programmer has worked in the company for 6 or more years. 
+
+Output:
+Enter years of service: 7
+Employee can be promoted to Senior Programmer.
+
+If the employee has less than 6 years, out then number of years he needs to get promoted:
+Enter years of service: 2
+Employee needs 4 more years of service before promotion.
+Instructions:
+
+An employer will promote a junior programmer to a senior programmer if the junior programmer has worked in the company for 6 or more years. 
+
+Output:
+Enter years of service: 7
+Employee can be promoted to Senior Programmer.
+
+If the employee has less than 6 years, out then number of years he needs to get promoted:
+Enter years of service: 2
+Employee needs 4 more years of service before promotion."
+24	"Instructions:
+
+Students with an attendance less than 70% will have to attend summer class.
+Write a program that asks the user for the number of classes, and the number of classes the student has attended. 
+
+If the student has attendance less than 70% of the class, print out a statement stating the student must attend summer class. Otherwise, state the student doesn't need to.
+
+Output:
+
+Example #1:
+Enter number of classes: 10
+Enter number of classes student attended: 4
+
+Student's Attendance: 40 %
+
+Student must attend summer class.
+
+Example #2:
+Enter number of classes: 10
+Enter number of classes student attended: 9
+
+Student's Attendance: 90 %
+
+Student does not need to attend summer class."
+25	"Instructions:
+
+
+Write a program that asks the user to enter an animal (cat, dog, rabbit, bird).
+
+Using the following statements, print out the location of the vet:
+
+If the user inputs the string Cat, the vet he needs to go to is in 17 Pillsburry Street, Central.
+If the user inputs the string Dog, the vet he needs to go to is in 28 Valentine Street, North View.
+If the user inputs the string Rabbit, the vet he needs to go to is in 97 Crayna Avenue, Kagone Bay
+If the user inputs the string Bird, the vet he needs to go to is in 16B Droid Street, Chan Point
+If the user inputs any other input, print out the message ""Invalid Animal!""
+
+Example:
+Enter Animal: Cat
+Location of Veterinary Clinic: 17 Pillsburry Street, Central
+
+Example:
+Enter Animal: Fish
+Location of Veterinary Clinic: Invalid Animal!"
+26	"Instructions: 
+
+Write a program that asks the user for 5 integers and print out the sum of all entered numbers using while loop.
+
+Output:
+Enter a number: 1
+Enter a number: 2 
+Enter a number: 3
+Enter a number: 4
+Enter a number: 5
+The sum of entered numbers is 15"
+27	"
+Write a program that prints out the following program using a while loop:
+
+*
+**
+***
+****"
+28	"Instructions: Write a program that prints out the multiplication table of  until 16 using while loop.
+
+Output:
+2
+4
+6
+8
+10
+12
+14
+16"
+29	"Instructions:
+
+Write a program that prints out the lists of condiments using a for loop:
+
+condoList = ['Ketchup','Mayonaise','Soy Sauce','Mustard']
+
+Output:
+Ketchup
+Mayonaise
+Soy Sauce
+Mustard"
+30	"Instructions:
+
+Write a program that prints out the list of countries and prints out the number of words in the given list using for loop:
+
+Hint: To calculate the number of words, use .isalpha()
+
+wordList = ['Australia','Japan','Malaysia','Hong Kong']
+
+Output:
+['Australia','Japan','Malaysia','Hong Kong']
+Number of Words: 4"
+31	"Instructions: Write a program that prints out only names starting with 'J' from the following list using if statement.
+
+names = ['Amanda','John','Joe','Carly','Jake,'Chloe','Brian','Jen','Tom']
+
+Output:
+John
+Joe
+Jake
+Jen"
+32	"Write a program that prints out the following using lists.
+
+Output:
+['1', '2', 'c']"
+33	"Write a program that prints out the following using tuples.
+
+Output:
+('red', 'blue', 'green', 1, 2, '3')"
+34	"Write a program that asks the user for 5 integers and print out the entered integers into a list.
+A loop has been given to to guide you.
+
+Enter number: 1
+Enter number: 2
+Enter number: 3
+Enter number: 4
+Enter number: 5 
+[1, 2, 3, 4, 5]
+
+Take note: To insert a number inside an index, we use append(). "
+35	"Instructions:
+Write a program that prints out the length of the following dictionary:
+
+List:
+
+dictionary = {""Colour"": ""Red"",""Food"": ""Cake"",""Number"": 5}
+
+Output:
+
+The length of the list is: 3"
+36	"Write a program that prints out the message inside ""Read_me.txt""
+
+Output:
+Hello, you are reading me!"
+37	"Write the following phrase under text inside ""Read_me.txt"" and print out both messages in the program:
+
+""Python is an experiment in how much freedom programmers need. Too much freedom and nobody can read another's code; too little and expressiveness is endangered.""
+
+Print the message with the specified format:
+Hello, you are reading me!
+Python is an experiment in how much freedom programmers need. 
+Too much freedom and nobody can read another's code; 
+too little and expressiveness is endangered."
+38	"Write a program that reads Line 2 from the Read_me.txt
+
+Output:
+Name of the file:  Read_me.txt
+Read Line: And Bingo was his name O"
+39	"Instructions: 
+
+Write a program that prints the product of two numbers entered by the user using functions.
+A function has already been defined for you in the program.
+
+Output:
+Enter first number:3
+Enter second number:4
+The product of 3 and 4 is 12"
+40	"Instructions:
+Write a program that to check if the user entered an even number or an odd number by defining a function called evenOdd().
+
+Output:
+Enter a number: 5
+5 is an odd number"
+41	"Instructions: 
+Write a program that prints out a list by defining a function called printList() if the user enters 'Y'.
+
+If the user prints out another character that is not Y or N, print the message ""Invalid Character!""
+
+
+Output of Y:
+Do you want to print out the list? (Y/N): Y
+B = [""Apples"", ""Banana"", ""Oranges"", ""DragonFruit""]
+
+Output of 'N':
+Do you want to print out the list? (Y/N): N
+List will not be printed"
+42	"Instructions: 
+
+Write a program that create a class named Movie.
+Afterwards, Have the program print out a, which is 15.
+
+
+Output:
+15"
+43	"Instructions:
+
+Write a program that create a class named Movie, use the __init__() function to assign values for character and genre:
+Example from Chapter 10.3:
+
+#Defining a Class
+class Fruit:
+  def __init__(self,make):
+    self.make = make
+ 
+#Class Instantiation
+sampleFruit = Fruit(""Apple"")
+
+#Print Statement
+print(sampleFruit.make)"
+44	"Create a class called Sunshine. Have the class print the message ""Good Morning, Sunshine!"" by defining a function called sun.
+
+Output:
+Good Morning, Sunshine!
+
+
+
+Class Example from chapter 10.3: 
+
+class SampleClass:
+  i = 12345 #This is the class variable
+ 
+  def su(self):
+    return 'hello world'
+x = SampleClass()
+print (x.i, x.f())"
+45	"Instructions:
+Create a class called Dictionary. Create two functions :
+1. translateFrench - It will take English word and will convert it into French.
+2. translateEnglish - It will take French word and will convert it into English.
+Any other numerical input - print out the message ""Invalid Number!""
+
+A loop has been placed in the program to guide you.
+
+Use the following words below:
+Good night - Bonne nuit
+Yes             - Oui
+No              -  Non
+Goodbye    - Au revoir
+Thank you - Merci
+Any other input - print out the message ""Word not recognized!
+
+Output Example:
+What would you like to do?
+1. Translate from English to French
+2. Translate from French to English
+
+Enter Option: __2___ 
+
+Enter Text: Oui
+The English of Oui is No
+
+What would you like to do?
+1. Translate from English to French
+2. Translate from French to English
+
+Enter Option: __1___ 
+
+Enter Text: Yes
+The French of Yes is Oui"
+46	"Instructions:
+
+Create a class called Lists. Create two Functions:
+animalList - contains the following list: animal = [""dog"", ""cat"", ""horse""]
+fruitList     -  contains the following list: fruit = [""apple"", ""pear"", ""orange""]
+
+Write a program that asks the user for 2 numbers. If the number is even, the program will print out the animalList. If the number is odd, the program will print out the FruitList.
+
+Output Example #1:
+Enter a number: 2
+['dog', 'cat', 'horse']
+
+Output Example #2:
+Enter a number: 3
+['apple', 'pear', 'orange']"
+47	"Instructions: 
+
+Create a class number SumofNum. 
+
+Write a program that asks the user to enter integers by defining function Add(). 
+
+The user is able to input any amount of integers until the user has input 0.
+
+When the user types in 0, the functions will add all the entered numbers and print out its sum.
+
+Output:
+Enter a number: 2
+Enter a number: 4
+Enter a number: 3
+Enter a number: 1 
+Enter a number: 0
+The sum of entered numbers is 10"
+48	"Instructions:
+
+Write an except statement that when the users enters a string, it will print out a message saying ""Please enter an integer number!"""
+49	"The code for reading a file is given in the exercise.
+
+Edit the code and write a try-except-else statement that asks the user to enter a filename the user wants to read.
+
+If the user enters Hello.txt, it will display the text inside the file.
+
+If the user enters the incorrect file name, it will display a message saying ""The file you are looking for does not exist!""
+
+Expected Output Example #1:
+Enter Filename: Hello.txt
+Hello, World!
+
+Expected Output Example #2:
+Enter Filename: Random.txt
+The file you are looking for does not exist!"
+50	"Instructions:
+
+Write a follow that asks the user to enter their birthday in mmddyy format.
+
+Write a try-except statement that if the user inputs a letter, the program should print out an exception message saying ""Birthday should only consists of numbers!""
+
+If no errors occur, it will print out the user's birthday.
+
+Lastly, write a finally statement that prints the message ""Goodbye!""
+
+Expected Output:
+Enter your date of birth in mmddyyyy format:
+For example: If your birthday is March 15, 1999, please enter 0315199.
+
+Enter Here:  0315199
+Your birthday is on 315199
+Goodbye!
+
+With Error:
+Enter your date of birth in mmddyyyy format:
+For example: If your birthday is March 15, 1999, please enter 0315199.
+
+Enter Here:  March 15 1999
+Birthday should only consists of numbers!
+Goodbye!"
