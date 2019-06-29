@@ -1,0 +1,6 @@
+Instructions:
+
+Write a C++ program that prints (displays) your first name.
+Example:
+
+cout << "John";
