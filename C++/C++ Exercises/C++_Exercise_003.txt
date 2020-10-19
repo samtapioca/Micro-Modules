@@ -1,6 +1,0 @@
-Instructions:
-
-Semicolons are important in your program, other the program will not run and cause an error.
-To remove the error, place a semicolon after the the last double quote:
-
-cout << "Hello, World!";
