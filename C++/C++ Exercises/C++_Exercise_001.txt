@@ -1,8 +1,0 @@
-For the program to run, we need to add a library and a namespace.
-
-Complete the program by adding the following:
-
-
-#include <iostream>
-
-using namespace std; 
